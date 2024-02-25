@@ -52,8 +52,25 @@ for text in instruction_texts:
 #====================================================================
 
 # Stimuli lists
-cues = ['Cue 1', 'Cue 2']  
-words = {'ANIMAL': ['Cat', 'Dog', 'Fish'], 'TOOL': ['Hammer', 'Screwdriver', 'Knife']}
+Cue_1 = 'Pictures/Cue1_hammer.png'
+Cue_2 = 'Pictures/Cue2_cat.png'
+
+cues = [Cue_1, Cue_2]
+
+#cues = {
+#    'Cue 1': 'Pictures/Cue1_elefant.png',
+#    'Cue 2': 'Pictures/Cue2_hammer.png'
+#}
+#cues = ['Pictures/Cue1_elefant.png', 'Pictures/Cue2_hammer.png']  
+words = {'ANIMAL': ["Zebra", "Tiger", "Shark", "Whale", "Eagle", 
+    "Otter", "Squid", "Skunk", "Sloth", "Snail",
+    "Moose", "Crane", "Finch", "Gecko", "Horse",
+    "Hyena", "Lemur", "Llama", "Panda", "Quail"], 
+         
+         'TOOL': ["Drill", "Screw", "Clamp", "Level", "Wrench",
+    "Lathe", "Chisel", "Anvil", "Brace", "Gauge",
+    "Joint", "Knife", "Laser", "Mallet", "Nailer",
+    "Plier", "Ruler", "Nozzle", "Crank", "Hammer"]}
 
 #====================================================================
 # Auxilliary Functions
@@ -67,9 +84,13 @@ def get_category(cue):
     category = random.choices(population=list(probabilities.keys()), weights=list(probabilities.values()), k=1)[0]
     return category
 
+switch_count = 0
+
 def switch_probabilities():
+    global switch_count
     for cue in cue_prob:
         cue_prob[cue]['ANIMAL'], cue_prob[cue]['TOOL'] = cue_prob[cue]['TOOL'], cue_prob[cue]['ANIMAL']
+    switch_count += 1
 #====================================================================
 
 
@@ -91,7 +112,9 @@ def show_cue(cue, trigger_code, duration_secs=0.5):
     cue_onset = core.monotonicClock.getTime()
     
     # Prepare the cue 
-    cue_text = visual.TextStim(win, text=cue, pos=(0, 0), color='white', height=0.025)
+    #cue_text = visual.TextStim(win, text=cue, pos=(0, 0), color='white', height=0.025)
+    
+    cue_image = visual.ImageStim(win, image=cue, size=(0.20, 0.30))
     
     # Variable to manage trigger state
     trigger_set = False
@@ -101,7 +124,7 @@ def show_cue(cue, trigger_code, duration_secs=0.5):
             # Set trigger only on the first frame
             win.callOnFlip(setParallelData, trigger_code)
             trigger_set = True
-        cue_text.draw()
+        cue_image.draw()
         win.flip()
         if frameN == 1 and trigger_set:
             # Reset trigger immediately after it's set, on the next frame
@@ -140,6 +163,8 @@ def prediction_prompt(trigger_code, duration=1.5):
     reaction_time_prediction = None
     prediction = None
 
+    pred_onset = core.monotonicClock.getTime()
+
     # Turn the trigger on with the next screen refresh when the slider appears
     win.callOnFlip(setParallelData, trigger_code)
 
@@ -163,11 +188,13 @@ def prediction_prompt(trigger_code, duration=1.5):
             win.callOnFlip(setParallelData, 0)
 
         win.flip()
+        
+    pred_offset = core.monotonicClock.getTime()
 
     # Ensure the trigger is turned off if it hasn't been already
     setParallelData(0)
 
-    return prediction, reaction_time_prediction
+    return prediction, reaction_time_prediction, pred_onset, pred_offset
 #====================================================================
 
  
@@ -218,13 +245,16 @@ writer = ppc.csv_writer(filename_prefix='participant2',
 #====================================================================
 
 n_trials = 10  # Adjust for the actual experiment
-trial_switch_interval = 3  # Interval for switching probabilities
+switch_trials = [4, 6, 8]  # Interval for switching probabilities
+switch_trials = [x + 1 for x in switch_trials]
 
 # Initial cue probabilities
+
 cue_prob = {
-    'Cue 1': {'ANIMAL': 0.8, 'TOOL': 0.2},
-    'Cue 2': {'ANIMAL': 0.8, 'TOOL': 0.2}
+    Cue_1: {'ANIMAL': 0.2, 'TOOL': 0.8},
+    Cue_2: {'ANIMAL': 0.8, 'TOOL': 0.2}
 }
+
 
 
 # Trigger Codes
@@ -240,10 +270,13 @@ show_instruction("The experiment will now begin. \n\n Press SPACE to START")
 for trial in range(n_trials):
     trial_clock.reset()
 
-    if trial != 0 and trial % trial_switch_interval == 0:
+    #if trial != 0 and trial % trial_switch_interval == 0:
+    #    switch_probabilities()
+    
+    if trial + 1 in switch_trials:
         switch_probabilities()
     
-    cue = random.choice(['Cue 1', 'Cue 2'])
+    cue = random.choice([Cue_1, Cue_2])
     category = get_category(cue)
     
     # Fixation Cross 
@@ -256,13 +289,15 @@ for trial in range(n_trials):
     show_fixation(1.5)
     
     # RESPONSE: Prediction 
-    prediction, reaction_time_prediction = prediction_prompt(TRIGGER_CODES['prediction_start'], duration=1.5)
+    prediction, reaction_time_prediction, pred_onset, pred_offset = prediction_prompt(TRIGGER_CODES['prediction_start'], duration=1.5)
     
     # Fixation Cross 
     show_fixation(1.5)
     
     # Stimulus: Word 
     word_onset, word_offset = show_word(category, TRIGGER_CODES['word'], word_duration_secs=1.5)
+
+    prob_cat = "Congruent" if switch_count % 2 == 0 else "Incongruent"
 
     # Log trial data
     trial_data = {
@@ -274,7 +309,10 @@ for trial in range(n_trials):
         'Prediction': prediction,
         'ReactionTime': reaction_time_prediction,
         'WordOnset': word_onset,
-        'WordOffset': word_offset
+        'WordOffset': word_offset,
+        'PredOnset': pred_onset,
+        'PredOffset': pred_offset,
+        'Prob_cat': prob_cat
     }
     writer.write(trial_data)
 
