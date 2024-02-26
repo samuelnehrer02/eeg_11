@@ -133,13 +133,19 @@ def prediction_prompt(trigger_code, duration=1.5):
                 response_made = True
                 logging.info(f'Prediction made: {prediction} with reaction time: {reaction_time_prediction}')
 
-        if frameN == duration_frames - 1:
-            win.callOnFlip(setParallelData, 0)
-
+        logging.info(f'Frame {frameN}: Before win.flip()')
         win.flip()
+        logging.info(f'Frame {frameN}: After win.flip()')
         
+    # Move the trigger reset to after the loop to control when it happens more explicitly
+    logging.info('Setting trigger reset on next flip after prediction prompt')
+    win.callOnFlip(setParallelData, 0)
+    # Force a screen refresh here if needed to ensure the reset occurs at a controlled time
+    win.flip()  # This ensures the callOnFlip action occurs at this specific flip
+    logging.info('Trigger reset after prediction prompt')
+
+    
     pred_offset = core.monotonicClock.getTime()
-    setParallelData(0)  # Ensure the trigger is turned off
     logging.info('Prediction prompt completed')
     return prediction, reaction_time_prediction, pred_onset, pred_offset
 
@@ -218,26 +224,32 @@ for trial in range(n_trials):
     # Fixation Cross
     logging.info(f'Trial {trial + 1}: Showing fixation cross')
     show_fixation(1.5)
+    logging.info(f'Trial {trial + 1}: Fixation cross ended, moving to cue')
     
     # Stimulus: Cue
     logging.info(f'Trial {trial + 1}: Showing cue')
     cue_onset, cue_offset = show_cue(cue, TRIGGER_CODES['cue'], duration_secs=1.5)
+    logging.info(f'Trial {trial + 1}: Cue completed, moving to fixation cross')
     
     # Fixation Cross
     logging.info(f'Trial {trial + 1}: Showing fixation cross again')
     show_fixation(1.5)
+    logging.info(f'Trial {trial + 1}: Fixation cross ended, moving to word prediction prompt')
     
     # RESPONSE: Prediction
     logging.info(f'Trial {trial + 1}: Starting prediction prompt')
     prediction, reaction_time_prediction, pred_onset, pred_offset = prediction_prompt(TRIGGER_CODES['prediction_start'], duration=1.5)
+    logging.info(f'Trial {trial + 1}: Prediction prompt completed, moving to fixation cross')
     
     # Fixation Cross
     logging.info(f'Trial {trial + 1}: Showing fixation cross')
     show_fixation(1.5)
+    logging.info(f'Trial {trial + 1}: Fixation cross ended, moving to word stimulus')
     
     # Stimulus: Word
     logging.info(f'Trial {trial + 1}: Showing word stimulus')
     word_onset, word_offset = show_word(category, TRIGGER_CODES['word'], word_duration_secs=1.5)
+    logging.info(f'Trial {trial + 1}: Word stimulus ended')
 
     # Define congruency based on switch count
     prob_cat = "Congruent" if switch_count % 2 == 0 else "Incongruent"
