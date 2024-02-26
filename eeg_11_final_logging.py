@@ -11,8 +11,9 @@ def setParallelData(trigger_code):
 
 # Initialize logging
 logging.basicConfig(filename="experiment_log.log", level=logging.INFO, 
-                    format='%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+                    format='%(asctime)s.%(msecs)03d %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 logging.info('Experiment started')
+
 
 # Initialize the Clock and Window
 MON_WIDTH = 34.5
