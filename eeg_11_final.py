@@ -55,7 +55,13 @@ for text in instruction_texts:
 Cue_1 = 'Pictures/Cue1_hammer.png'
 Cue_2 = 'Pictures/Cue2_cat.png'
 
-cues = [Cue_1, Cue_2]
+cue_identifiers = {
+    'Pictures/Cue1_hammer.png': 'Cue 1',
+    'Pictures/Cue2_cat.png': 'Cue 2',
+}
+
+cues = list(cue_identifiers.keys())
+# cues = [Cue_1, Cue_2]
 
 #cues = {
 #    'Cue 1': 'Pictures/Cue1_elefant.png',
@@ -97,7 +103,7 @@ def switch_probabilities():
 
 # Fixation cross
 def show_fixation(duration_secs=1.5):
-    num_frames = int(duration_secs * FRAME_RATE)  # Calculate the number of frames for the duration
+    num_frames = int(duration_secs * FRAME_RATE)  
     
     for frameN in range(num_frames):
         fixation.draw()
@@ -197,8 +203,6 @@ def prediction_prompt(trigger_code, duration=1.5):
     return prediction, reaction_time_prediction, pred_onset, pred_offset
 #====================================================================
 
- 
- 
 # Word Stimulus
 def show_word(category, trigger_code, word_duration_secs=0.5):
 
@@ -234,27 +238,24 @@ def show_word(category, trigger_code, word_duration_secs=0.5):
 # Data Saving
 #====================================================================
 
-# Example initialization
-writer = ppc.csv_writer(filename_prefix='participant2',
+writer = ppc.csv_writer(filename_prefix='Sam_test',
                     folder='exp_data',
-                    column_order=['Trial', 'Cue', 'Category', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'WordOnset', 'WordOffset'])
+                    column_order=['Trial', 'Cue', 'Category','Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime','rt','PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
 
 
 #====================================================================
 ############################ MAIN LOOP ############################
 #====================================================================
 
-n_trials = 10  # Adjust for the actual experiment
-switch_trials = [4, 6, 8]  # Interval for switching probabilities
+n_trials = 2  # Needs to be Adjusted!! +- 100
+switch_trials = [1]  # Interval for switching probabilities (50??)
 switch_trials = [x + 1 for x in switch_trials]
 
 # Initial cue probabilities
-
 cue_prob = {
     Cue_1: {'ANIMAL': 0.2, 'TOOL': 0.8},
     Cue_2: {'ANIMAL': 0.8, 'TOOL': 0.2}
 }
-
 
 
 # Trigger Codes
@@ -301,20 +302,21 @@ for trial in range(n_trials):
 
     # Log trial data
     trial_data = {
-        'Trial': trial + 1, 
-        'Cue': cue,
+        'Trial': trial + 1,
+        'Cue': cue_identifiers[cue],
         'Category': category,
-        'CueOnset': cue_onset,
+        'Prob_cat': prob_cat,
+        'CueOnset': cue_onset, 
         'CueOffset': cue_offset,
         'Prediction': prediction,
         'ReactionTime': reaction_time_prediction,
-        'WordOnset': word_onset,
-        'WordOffset': word_offset,
+        'rt': reaction_time_prediction - pred_onset,
         'PredOnset': pred_onset,
         'PredOffset': pred_offset,
-        'Prob_cat': prob_cat
+        'WordOnset': word_onset,
+        'WordOffset': word_offset
     }
-    writer.write(trial_data)
+    writer.write(trial_data) 
 
 
 #====================================================================
