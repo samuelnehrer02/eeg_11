@@ -73,12 +73,13 @@ def show_fixation(duration_secs=1.5):
         win.flip()
     logging.info('Fixation ended')
 
-def show_cue(cue, trigger_code, duration_secs=0.5):
+def show_cue(cue, duration_secs=0.5):
     logging.info(f"Showing cue: {cue}")
     cue_duration_frames = int(duration_secs * FRAME_RATE)
     cue_onset = core.monotonicClock.getTime()
     cue_image = visual.ImageStim(win, image=cue, size=(0.20, 0.30))
     trigger_set = False
+
     for frameN in range(cue_duration_frames):
         if frameN == 0:
             win.callOnFlip(setParallelData, trigger_code)
@@ -182,7 +183,7 @@ def show_word(category, trigger_code, word_duration_secs=0.5):
 logging.info('Setting up data writer')
 writer = ppc.csv_writer(filename_prefix='Sam_test',
                         folder='exp_data',
-                        column_order=['Trial', 'Cue', 'Category', 'Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'rt', 'PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
+                        column_order=['Trial', 'Cue', 'Category', 'Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
 
 
 #====================================================================
@@ -203,7 +204,6 @@ cue_prob = {
 
 # Trigger Codes
 TRIGGER_CODES = {
-    'cue': 1,
     'prediction_start': 2,
     'word': 3,
 }
@@ -229,7 +229,7 @@ for trial in range(n_trials):
     
     # Stimulus: Cue
     logging.info(f'Trial {trial + 1}: Showing cue')
-    cue_onset, cue_offset = show_cue(cue, TRIGGER_CODES['cue'], duration_secs=1.5)
+    cue_onset, cue_offset = show_cue(cue, duration_secs=1.5)
     logging.info(f'Trial {trial + 1}: Cue completed, moving to fixation cross')
     
     # Fixation Cross
@@ -266,7 +266,6 @@ for trial in range(n_trials):
         'CueOffset': cue_offset,
         'Prediction': prediction,
         'ReactionTime': reaction_time_prediction,
-        'rt': reaction_time_prediction - pred_onset,
         'PredOnset': pred_onset,
         'PredOffset': pred_offset,
         'WordOnset': word_onset,
