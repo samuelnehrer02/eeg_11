@@ -892,3 +892,1605 @@
 2024-02-27 20:13:41.472 Prediction prompt completed
 2024-02-27 20:13:41.472 Trial 1: Prediction prompt completed, moving to fixation cross
 2024-02-27 20:13:41.472 Experiment aborted by user.
+2024-02-27 20:15:42.780 Experiment started
+2024-02-27 20:15:43.234 Window and monitors initialized
+2024-02-27 20:15:43.235 Stimuli prepared
+2024-02-27 20:15:43.324 Setting up prediction prompt
+2024-02-27 20:15:44.425 Setting up word stimulus
+2024-02-27 20:15:44.426 Setting up data writer
+2024-02-27 20:15:44.426 Main experiment loop starting
+2024-02-27 20:15:44.426 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:15:45.356 Instruction ended
+2024-02-27 20:15:45.356 Starting trial 1
+2024-02-27 20:15:45.356 Trial 1: Selected cue "Pictures/Cue1_hammer.png", Category: "TOOL"
+2024-02-27 20:15:45.356 Trial 1: Showing fixation cross
+2024-02-27 20:15:45.356 Showing fixation
+2024-02-27 20:15:46.835 Fixation ended
+2024-02-27 20:15:46.835 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:15:46.836 Trial 1: Showing cue
+2024-02-27 20:15:46.836 Showing cue: Pictures/Cue1_hammer.png
+2024-02-27 20:15:46.905 Trigger sent: 1
+2024-02-27 20:15:46.933 Trigger sent: 0
+2024-02-27 20:15:48.386 Cue shown: Pictures/Cue1_hammer.png with duration 1.5 seconds
+2024-02-27 20:15:48.386 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:15:48.386 Trial 1: Showing fixation cross again
+2024-02-27 20:15:48.387 Showing fixation
+2024-02-27 20:15:49.887 Fixation ended
+2024-02-27 20:15:49.887 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:15:49.887 Trial 1: Starting prediction prompt
+2024-02-27 20:15:49.887 Starting prediction prompt
+2024-02-27 20:15:49.900 Frame 0: Before win.flip()
+2024-02-27 20:15:49.904 Trigger sent: 2
+2024-02-27 20:15:49.904 Frame 0: After win.flip()
+2024-02-27 20:15:49.906 Frame 1: Before win.flip()
+2024-02-27 20:15:49.919 Frame 1: After win.flip()
+2024-02-27 20:15:49.921 Frame 2: Before win.flip()
+2024-02-27 20:15:49.935 Frame 2: After win.flip()
+2024-02-27 20:15:49.937 Frame 3: Before win.flip()
+2024-02-27 20:15:49.952 Frame 3: After win.flip()
+2024-02-27 20:15:49.955 Frame 4: Before win.flip()
+2024-02-27 20:15:49.970 Frame 4: After win.flip()
+2024-02-27 20:15:49.972 Frame 5: Before win.flip()
+2024-02-27 20:15:49.986 Frame 5: After win.flip()
+2024-02-27 20:15:49.988 Frame 6: Before win.flip()
+2024-02-27 20:15:50.003 Frame 6: After win.flip()
+2024-02-27 20:15:50.006 Frame 7: Before win.flip()
+2024-02-27 20:15:50.019 Frame 7: After win.flip()
+2024-02-27 20:15:50.023 Frame 8: Before win.flip()
+2024-02-27 20:15:50.036 Frame 8: After win.flip()
+2024-02-27 20:15:50.038 Frame 9: Before win.flip()
+2024-02-27 20:15:50.053 Frame 9: After win.flip()
+2024-02-27 20:15:50.056 Frame 10: Before win.flip()
+2024-02-27 20:15:50.069 Frame 10: After win.flip()
+2024-02-27 20:15:50.072 Frame 11: Before win.flip()
+2024-02-27 20:15:50.086 Frame 11: After win.flip()
+2024-02-27 20:15:50.090 Frame 12: Before win.flip()
+2024-02-27 20:15:50.103 Frame 12: After win.flip()
+2024-02-27 20:15:50.106 Frame 13: Before win.flip()
+2024-02-27 20:15:50.120 Frame 13: After win.flip()
+2024-02-27 20:15:50.123 Frame 14: Before win.flip()
+2024-02-27 20:15:50.137 Frame 14: After win.flip()
+2024-02-27 20:15:50.139 Frame 15: Before win.flip()
+2024-02-27 20:15:50.153 Frame 15: After win.flip()
+2024-02-27 20:15:50.156 Frame 16: Before win.flip()
+2024-02-27 20:15:50.169 Frame 16: After win.flip()
+2024-02-27 20:15:50.172 Frame 17: Before win.flip()
+2024-02-27 20:15:50.186 Frame 17: After win.flip()
+2024-02-27 20:15:50.189 Frame 18: Before win.flip()
+2024-02-27 20:15:50.203 Frame 18: After win.flip()
+2024-02-27 20:15:50.205 Frame 19: Before win.flip()
+2024-02-27 20:15:50.220 Frame 19: After win.flip()
+2024-02-27 20:15:50.223 Frame 20: Before win.flip()
+2024-02-27 20:15:50.236 Frame 20: After win.flip()
+2024-02-27 20:15:50.239 Frame 21: Before win.flip()
+2024-02-27 20:15:50.253 Frame 21: After win.flip()
+2024-02-27 20:15:50.256 Frame 22: Before win.flip()
+2024-02-27 20:15:50.270 Frame 22: After win.flip()
+2024-02-27 20:15:50.272 Frame 23: Before win.flip()
+2024-02-27 20:15:50.286 Frame 23: After win.flip()
+2024-02-27 20:15:50.289 Frame 24: Before win.flip()
+2024-02-27 20:15:50.303 Frame 24: After win.flip()
+2024-02-27 20:15:50.306 Frame 25: Before win.flip()
+2024-02-27 20:15:50.319 Frame 25: After win.flip()
+2024-02-27 20:15:50.322 Frame 26: Before win.flip()
+2024-02-27 20:15:50.336 Frame 26: After win.flip()
+2024-02-27 20:15:50.339 Frame 27: Before win.flip()
+2024-02-27 20:15:50.353 Frame 27: After win.flip()
+2024-02-27 20:15:50.356 Frame 28: Before win.flip()
+2024-02-27 20:15:50.370 Frame 28: After win.flip()
+2024-02-27 20:15:50.372 Frame 29: Before win.flip()
+2024-02-27 20:15:50.386 Frame 29: After win.flip()
+2024-02-27 20:15:50.388 Frame 30: Before win.flip()
+2024-02-27 20:15:50.402 Frame 30: After win.flip()
+2024-02-27 20:15:50.405 Frame 31: Before win.flip()
+2024-02-27 20:15:50.420 Frame 31: After win.flip()
+2024-02-27 20:15:50.423 Frame 32: Before win.flip()
+2024-02-27 20:15:50.436 Frame 32: After win.flip()
+2024-02-27 20:15:50.438 Frame 33: Before win.flip()
+2024-02-27 20:15:50.453 Frame 33: After win.flip()
+2024-02-27 20:15:50.456 Frame 34: Before win.flip()
+2024-02-27 20:15:50.469 Frame 34: After win.flip()
+2024-02-27 20:15:50.471 Frame 35: Before win.flip()
+2024-02-27 20:15:50.486 Frame 35: After win.flip()
+2024-02-27 20:15:50.489 Frame 36: Before win.flip()
+2024-02-27 20:15:50.503 Frame 36: After win.flip()
+2024-02-27 20:15:50.505 Frame 37: Before win.flip()
+2024-02-27 20:15:50.519 Frame 37: After win.flip()
+2024-02-27 20:15:50.522 Frame 38: Before win.flip()
+2024-02-27 20:15:50.537 Frame 38: After win.flip()
+2024-02-27 20:15:50.539 Frame 39: Before win.flip()
+2024-02-27 20:15:50.553 Frame 39: After win.flip()
+2024-02-27 20:15:50.556 Frame 40: Before win.flip()
+2024-02-27 20:15:50.570 Frame 40: After win.flip()
+2024-02-27 20:15:50.573 Frame 41: Before win.flip()
+2024-02-27 20:15:50.586 Frame 41: After win.flip()
+2024-02-27 20:15:50.590 Frame 42: Before win.flip()
+2024-02-27 20:15:50.603 Frame 42: After win.flip()
+2024-02-27 20:15:50.605 Frame 43: Before win.flip()
+2024-02-27 20:15:50.620 Frame 43: After win.flip()
+2024-02-27 20:15:50.622 Frame 44: Before win.flip()
+2024-02-27 20:15:50.636 Frame 44: After win.flip()
+2024-02-27 20:15:50.640 Frame 45: Before win.flip()
+2024-02-27 20:15:50.653 Frame 45: After win.flip()
+2024-02-27 20:15:50.656 Frame 46: Before win.flip()
+2024-02-27 20:15:50.670 Frame 46: After win.flip()
+2024-02-27 20:15:50.672 Frame 47: Before win.flip()
+2024-02-27 20:15:50.686 Frame 47: After win.flip()
+2024-02-27 20:15:50.689 Frame 48: Before win.flip()
+2024-02-27 20:15:50.703 Frame 48: After win.flip()
+2024-02-27 20:15:50.705 Frame 49: Before win.flip()
+2024-02-27 20:15:50.720 Frame 49: After win.flip()
+2024-02-27 20:15:50.723 Frame 50: Before win.flip()
+2024-02-27 20:15:50.736 Frame 50: After win.flip()
+2024-02-27 20:15:50.739 Frame 51: Before win.flip()
+2024-02-27 20:15:50.753 Frame 51: After win.flip()
+2024-02-27 20:15:50.755 Frame 52: Before win.flip()
+2024-02-27 20:15:50.770 Frame 52: After win.flip()
+2024-02-27 20:15:50.773 Frame 53: Before win.flip()
+2024-02-27 20:15:50.786 Frame 53: After win.flip()
+2024-02-27 20:15:50.788 Frame 54: Before win.flip()
+2024-02-27 20:15:50.803 Frame 54: After win.flip()
+2024-02-27 20:15:50.805 Frame 55: Before win.flip()
+2024-02-27 20:15:50.819 Frame 55: After win.flip()
+2024-02-27 20:15:50.822 Frame 56: Before win.flip()
+2024-02-27 20:15:50.837 Frame 56: After win.flip()
+2024-02-27 20:15:50.839 Frame 57: Before win.flip()
+2024-02-27 20:15:50.853 Frame 57: After win.flip()
+2024-02-27 20:15:50.856 Frame 58: Before win.flip()
+2024-02-27 20:15:50.870 Frame 58: After win.flip()
+2024-02-27 20:15:50.872 Frame 59: Before win.flip()
+2024-02-27 20:15:50.886 Frame 59: After win.flip()
+2024-02-27 20:15:50.889 Frame 60: Before win.flip()
+2024-02-27 20:15:50.903 Frame 60: After win.flip()
+2024-02-27 20:15:50.905 Frame 61: Before win.flip()
+2024-02-27 20:15:50.920 Frame 61: After win.flip()
+2024-02-27 20:15:50.923 Frame 62: Before win.flip()
+2024-02-27 20:15:50.936 Frame 62: After win.flip()
+2024-02-27 20:15:50.940 Frame 63: Before win.flip()
+2024-02-27 20:15:50.953 Frame 63: After win.flip()
+2024-02-27 20:15:50.956 Frame 64: Before win.flip()
+2024-02-27 20:15:50.970 Frame 64: After win.flip()
+2024-02-27 20:15:50.974 Frame 65: Before win.flip()
+2024-02-27 20:15:50.986 Frame 65: After win.flip()
+2024-02-27 20:15:50.989 Frame 66: Before win.flip()
+2024-02-27 20:15:51.003 Frame 66: After win.flip()
+2024-02-27 20:15:51.006 Frame 67: Before win.flip()
+2024-02-27 20:15:51.020 Frame 67: After win.flip()
+2024-02-27 20:15:51.022 Frame 68: Before win.flip()
+2024-02-27 20:15:51.036 Frame 68: After win.flip()
+2024-02-27 20:15:51.039 Frame 69: Before win.flip()
+2024-02-27 20:15:51.053 Frame 69: After win.flip()
+2024-02-27 20:15:51.055 Frame 70: Before win.flip()
+2024-02-27 20:15:51.070 Frame 70: After win.flip()
+2024-02-27 20:15:51.073 Frame 71: Before win.flip()
+2024-02-27 20:15:51.086 Frame 71: After win.flip()
+2024-02-27 20:15:51.089 Frame 72: Before win.flip()
+2024-02-27 20:15:51.103 Frame 72: After win.flip()
+2024-02-27 20:15:51.106 Frame 73: Before win.flip()
+2024-02-27 20:15:51.120 Frame 73: After win.flip()
+2024-02-27 20:15:51.122 Frame 74: Before win.flip()
+2024-02-27 20:15:51.136 Frame 74: After win.flip()
+2024-02-27 20:15:51.140 Frame 75: Before win.flip()
+2024-02-27 20:15:51.154 Frame 75: After win.flip()
+2024-02-27 20:15:51.157 Frame 76: Before win.flip()
+2024-02-27 20:15:51.170 Frame 76: After win.flip()
+2024-02-27 20:15:51.172 Frame 77: Before win.flip()
+2024-02-27 20:15:51.186 Frame 77: After win.flip()
+2024-02-27 20:15:51.191 Frame 78: Before win.flip()
+2024-02-27 20:15:51.203 Frame 78: After win.flip()
+2024-02-27 20:15:51.206 Frame 79: Before win.flip()
+2024-02-27 20:15:51.220 Frame 79: After win.flip()
+2024-02-27 20:15:51.223 Frame 80: Before win.flip()
+2024-02-27 20:15:51.237 Frame 80: After win.flip()
+2024-02-27 20:15:51.240 Frame 81: Before win.flip()
+2024-02-27 20:15:51.253 Frame 81: After win.flip()
+2024-02-27 20:15:51.256 Frame 82: Before win.flip()
+2024-02-27 20:15:51.270 Frame 82: After win.flip()
+2024-02-27 20:15:51.273 Frame 83: Before win.flip()
+2024-02-27 20:15:51.286 Frame 83: After win.flip()
+2024-02-27 20:15:51.289 Frame 84: Before win.flip()
+2024-02-27 20:15:51.302 Frame 84: After win.flip()
+2024-02-27 20:15:51.305 Frame 85: Before win.flip()
+2024-02-27 20:15:51.320 Frame 85: After win.flip()
+2024-02-27 20:15:51.323 Frame 86: Before win.flip()
+2024-02-27 20:15:51.336 Frame 86: After win.flip()
+2024-02-27 20:15:51.340 Frame 87: Before win.flip()
+2024-02-27 20:15:51.353 Frame 87: After win.flip()
+2024-02-27 20:15:51.356 Frame 88: Before win.flip()
+2024-02-27 20:15:51.370 Frame 88: After win.flip()
+2024-02-27 20:15:51.373 Frame 89: Before win.flip()
+2024-02-27 20:15:51.386 Frame 89: After win.flip()
+2024-02-27 20:15:51.386 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:15:51.403 Trigger sent: 0
+2024-02-27 20:15:51.403 Trigger reset after prediction prompt
+2024-02-27 20:15:51.403 Prediction prompt completed
+2024-02-27 20:15:51.403 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:15:51.403 Trial 1: Showing fixation cross
+2024-02-27 20:15:51.403 Showing fixation
+2024-02-27 20:15:52.905 Fixation ended
+2024-02-27 20:15:52.905 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:15:52.905 Trial 1: Showing word stimulus
+2024-02-27 20:15:52.905 Showing word stimulus for category: TOOL
+2024-02-27 20:15:52.925 Trigger sent: 3
+2024-02-27 20:15:52.937 Trigger sent: 0
+2024-02-27 20:15:54.405 Word stimulus "Level" shown for category: TOOL
+2024-02-27 20:15:54.405 Trial 1: Word stimulus ended
+2024-02-27 20:15:54.406 Trial 1: Congruency category - Congruent
+2024-02-27 20:16:14.509 Experiment started
+2024-02-27 20:16:14.963 Window and monitors initialized
+2024-02-27 20:16:14.963 Stimuli prepared
+2024-02-27 20:16:15.060 Setting up prediction prompt
+2024-02-27 20:16:16.187 Setting up word stimulus
+2024-02-27 20:16:16.187 Setting up data writer
+2024-02-27 20:16:16.187 Main experiment loop starting
+2024-02-27 20:16:16.187 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:16:18.424 Instruction ended
+2024-02-27 20:16:18.424 Starting trial 1
+2024-02-27 20:16:18.425 Trial 1: Selected cue "Pictures/Cue1_hammer.png", Category: "ANIMAL"
+2024-02-27 20:16:18.425 Trial 1: Showing fixation cross
+2024-02-27 20:16:18.425 Showing fixation
+2024-02-27 20:16:19.915 Fixation ended
+2024-02-27 20:16:19.915 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:16:19.915 Trial 1: Showing cue
+2024-02-27 20:16:19.916 Showing cue: Pictures/Cue1_hammer.png
+2024-02-27 20:16:19.957 Trigger sent: 1
+2024-02-27 20:16:19.980 Trigger sent: 0
+2024-02-27 20:16:21.433 Cue shown: Pictures/Cue1_hammer.png with duration 1.5 seconds
+2024-02-27 20:16:21.433 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:16:21.433 Trial 1: Showing fixation cross again
+2024-02-27 20:16:21.433 Showing fixation
+2024-02-27 20:16:22.933 Fixation ended
+2024-02-27 20:16:22.933 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:16:22.933 Trial 1: Starting prediction prompt
+2024-02-27 20:16:22.933 Starting prediction prompt
+2024-02-27 20:16:22.945 Frame 0: Before win.flip()
+2024-02-27 20:16:22.950 Trigger sent: 2
+2024-02-27 20:16:22.950 Frame 0: After win.flip()
+2024-02-27 20:16:22.953 Frame 1: Before win.flip()
+2024-02-27 20:16:22.965 Frame 1: After win.flip()
+2024-02-27 20:16:22.968 Frame 2: Before win.flip()
+2024-02-27 20:16:22.982 Frame 2: After win.flip()
+2024-02-27 20:16:22.984 Frame 3: Before win.flip()
+2024-02-27 20:16:22.999 Frame 3: After win.flip()
+2024-02-27 20:16:23.001 Frame 4: Before win.flip()
+2024-02-27 20:16:23.015 Frame 4: After win.flip()
+2024-02-27 20:16:23.018 Frame 5: Before win.flip()
+2024-02-27 20:16:23.032 Frame 5: After win.flip()
+2024-02-27 20:16:23.034 Frame 6: Before win.flip()
+2024-02-27 20:16:23.049 Frame 6: After win.flip()
+2024-02-27 20:16:23.051 Frame 7: Before win.flip()
+2024-02-27 20:16:23.066 Frame 7: After win.flip()
+2024-02-27 20:16:23.068 Frame 8: Before win.flip()
+2024-02-27 20:16:23.082 Frame 8: After win.flip()
+2024-02-27 20:16:23.084 Frame 9: Before win.flip()
+2024-02-27 20:16:23.099 Frame 9: After win.flip()
+2024-02-27 20:16:23.101 Frame 10: Before win.flip()
+2024-02-27 20:16:23.115 Frame 10: After win.flip()
+2024-02-27 20:16:23.118 Frame 11: Before win.flip()
+2024-02-27 20:16:23.132 Frame 11: After win.flip()
+2024-02-27 20:16:23.134 Frame 12: Before win.flip()
+2024-02-27 20:16:23.149 Frame 12: After win.flip()
+2024-02-27 20:16:23.153 Frame 13: Before win.flip()
+2024-02-27 20:16:23.165 Frame 13: After win.flip()
+2024-02-27 20:16:23.168 Frame 14: Before win.flip()
+2024-02-27 20:16:23.181 Frame 14: After win.flip()
+2024-02-27 20:16:23.184 Frame 15: Before win.flip()
+2024-02-27 20:16:23.199 Frame 15: After win.flip()
+2024-02-27 20:16:23.201 Frame 16: Before win.flip()
+2024-02-27 20:16:23.215 Frame 16: After win.flip()
+2024-02-27 20:16:23.217 Frame 17: Before win.flip()
+2024-02-27 20:16:23.232 Frame 17: After win.flip()
+2024-02-27 20:16:23.235 Frame 18: Before win.flip()
+2024-02-27 20:16:23.248 Frame 18: After win.flip()
+2024-02-27 20:16:23.250 Frame 19: Before win.flip()
+2024-02-27 20:16:23.266 Frame 19: After win.flip()
+2024-02-27 20:16:23.269 Frame 20: Before win.flip()
+2024-02-27 20:16:23.282 Frame 20: After win.flip()
+2024-02-27 20:16:23.286 Frame 21: Before win.flip()
+2024-02-27 20:16:23.298 Frame 21: After win.flip()
+2024-02-27 20:16:23.302 Frame 22: Before win.flip()
+2024-02-27 20:16:23.315 Frame 22: After win.flip()
+2024-02-27 20:16:23.318 Frame 23: Before win.flip()
+2024-02-27 20:16:23.333 Frame 23: After win.flip()
+2024-02-27 20:16:23.335 Frame 24: Before win.flip()
+2024-02-27 20:16:23.349 Frame 24: After win.flip()
+2024-02-27 20:16:23.352 Frame 25: Before win.flip()
+2024-02-27 20:16:23.365 Frame 25: After win.flip()
+2024-02-27 20:16:23.368 Frame 26: Before win.flip()
+2024-02-27 20:16:23.382 Frame 26: After win.flip()
+2024-02-27 20:16:23.385 Frame 27: Before win.flip()
+2024-02-27 20:16:23.399 Frame 27: After win.flip()
+2024-02-27 20:16:23.402 Frame 28: Before win.flip()
+2024-02-27 20:16:23.415 Frame 28: After win.flip()
+2024-02-27 20:16:23.418 Frame 29: Before win.flip()
+2024-02-27 20:16:23.433 Frame 29: After win.flip()
+2024-02-27 20:16:23.435 Frame 30: Before win.flip()
+2024-02-27 20:16:23.449 Frame 30: After win.flip()
+2024-02-27 20:16:23.451 Frame 31: Before win.flip()
+2024-02-27 20:16:23.465 Frame 31: After win.flip()
+2024-02-27 20:16:23.468 Frame 32: Before win.flip()
+2024-02-27 20:16:23.482 Frame 32: After win.flip()
+2024-02-27 20:16:23.485 Frame 33: Before win.flip()
+2024-02-27 20:16:23.499 Frame 33: After win.flip()
+2024-02-27 20:16:23.502 Frame 34: Before win.flip()
+2024-02-27 20:16:23.515 Frame 34: After win.flip()
+2024-02-27 20:16:23.518 Frame 35: Before win.flip()
+2024-02-27 20:16:23.532 Frame 35: After win.flip()
+2024-02-27 20:16:23.535 Frame 36: Before win.flip()
+2024-02-27 20:16:23.549 Frame 36: After win.flip()
+2024-02-27 20:16:23.551 Frame 37: Before win.flip()
+2024-02-27 20:16:23.565 Frame 37: After win.flip()
+2024-02-27 20:16:23.568 Frame 38: Before win.flip()
+2024-02-27 20:16:23.582 Frame 38: After win.flip()
+2024-02-27 20:16:23.585 Frame 39: Before win.flip()
+2024-02-27 20:16:23.599 Frame 39: After win.flip()
+2024-02-27 20:16:23.603 Frame 40: Before win.flip()
+2024-02-27 20:16:23.616 Frame 40: After win.flip()
+2024-02-27 20:16:23.619 Frame 41: Before win.flip()
+2024-02-27 20:16:23.632 Frame 41: After win.flip()
+2024-02-27 20:16:23.635 Frame 42: Before win.flip()
+2024-02-27 20:16:23.648 Frame 42: After win.flip()
+2024-02-27 20:16:23.651 Frame 43: Before win.flip()
+2024-02-27 20:16:23.665 Frame 43: After win.flip()
+2024-02-27 20:16:23.668 Frame 44: Before win.flip()
+2024-02-27 20:16:23.682 Frame 44: After win.flip()
+2024-02-27 20:16:23.685 Frame 45: Before win.flip()
+2024-02-27 20:16:23.698 Frame 45: After win.flip()
+2024-02-27 20:16:23.701 Frame 46: Before win.flip()
+2024-02-27 20:16:23.716 Frame 46: After win.flip()
+2024-02-27 20:16:23.719 Frame 47: Before win.flip()
+2024-02-27 20:16:23.733 Frame 47: After win.flip()
+2024-02-27 20:16:23.736 Frame 48: Before win.flip()
+2024-02-27 20:16:23.749 Frame 48: After win.flip()
+2024-02-27 20:16:23.752 Frame 49: Before win.flip()
+2024-02-27 20:16:23.766 Frame 49: After win.flip()
+2024-02-27 20:16:23.769 Frame 50: Before win.flip()
+2024-02-27 20:16:23.783 Frame 50: After win.flip()
+2024-02-27 20:16:23.786 Frame 51: Before win.flip()
+2024-02-27 20:16:23.800 Frame 51: After win.flip()
+2024-02-27 20:16:23.802 Frame 52: Before win.flip()
+2024-02-27 20:16:23.816 Frame 52: After win.flip()
+2024-02-27 20:16:23.819 Frame 53: Before win.flip()
+2024-02-27 20:16:23.833 Frame 53: After win.flip()
+2024-02-27 20:16:23.836 Frame 54: Before win.flip()
+2024-02-27 20:16:23.849 Frame 54: After win.flip()
+2024-02-27 20:16:23.852 Frame 55: Before win.flip()
+2024-02-27 20:16:23.865 Frame 55: After win.flip()
+2024-02-27 20:16:23.868 Frame 56: Before win.flip()
+2024-02-27 20:16:23.882 Frame 56: After win.flip()
+2024-02-27 20:16:23.884 Frame 57: Before win.flip()
+2024-02-27 20:16:23.899 Frame 57: After win.flip()
+2024-02-27 20:16:23.901 Frame 58: Before win.flip()
+2024-02-27 20:16:23.915 Frame 58: After win.flip()
+2024-02-27 20:16:23.918 Frame 59: Before win.flip()
+2024-02-27 20:16:23.932 Frame 59: After win.flip()
+2024-02-27 20:16:23.935 Frame 60: Before win.flip()
+2024-02-27 20:16:23.949 Frame 60: After win.flip()
+2024-02-27 20:16:23.952 Frame 61: Before win.flip()
+2024-02-27 20:16:23.965 Frame 61: After win.flip()
+2024-02-27 20:16:23.967 Frame 62: Before win.flip()
+2024-02-27 20:16:23.983 Frame 62: After win.flip()
+2024-02-27 20:16:23.985 Frame 63: Before win.flip()
+2024-02-27 20:16:23.999 Frame 63: After win.flip()
+2024-02-27 20:16:24.002 Frame 64: Before win.flip()
+2024-02-27 20:16:24.016 Frame 64: After win.flip()
+2024-02-27 20:16:24.018 Frame 65: Before win.flip()
+2024-02-27 20:16:24.033 Frame 65: After win.flip()
+2024-02-27 20:16:24.036 Frame 66: Before win.flip()
+2024-02-27 20:16:24.049 Frame 66: After win.flip()
+2024-02-27 20:16:24.051 Frame 67: Before win.flip()
+2024-02-27 20:16:24.065 Frame 67: After win.flip()
+2024-02-27 20:16:24.068 Frame 68: Before win.flip()
+2024-02-27 20:16:24.082 Frame 68: After win.flip()
+2024-02-27 20:16:24.084 Frame 69: Before win.flip()
+2024-02-27 20:16:24.099 Frame 69: After win.flip()
+2024-02-27 20:16:24.101 Frame 70: Before win.flip()
+2024-02-27 20:16:24.116 Frame 70: After win.flip()
+2024-02-27 20:16:24.118 Frame 71: Before win.flip()
+2024-02-27 20:16:24.132 Frame 71: After win.flip()
+2024-02-27 20:16:24.135 Frame 72: Before win.flip()
+2024-02-27 20:16:24.149 Frame 72: After win.flip()
+2024-02-27 20:16:24.152 Frame 73: Before win.flip()
+2024-02-27 20:16:24.166 Frame 73: After win.flip()
+2024-02-27 20:16:24.169 Frame 74: Before win.flip()
+2024-02-27 20:16:24.183 Frame 74: After win.flip()
+2024-02-27 20:16:24.186 Frame 75: Before win.flip()
+2024-02-27 20:16:24.199 Frame 75: After win.flip()
+2024-02-27 20:16:24.201 Frame 76: Before win.flip()
+2024-02-27 20:16:24.216 Frame 76: After win.flip()
+2024-02-27 20:16:24.219 Frame 77: Before win.flip()
+2024-02-27 20:16:24.232 Frame 77: After win.flip()
+2024-02-27 20:16:24.235 Frame 78: Before win.flip()
+2024-02-27 20:16:24.249 Frame 78: After win.flip()
+2024-02-27 20:16:24.252 Frame 79: Before win.flip()
+2024-02-27 20:16:24.266 Frame 79: After win.flip()
+2024-02-27 20:16:24.270 Frame 80: Before win.flip()
+2024-02-27 20:16:24.283 Frame 80: After win.flip()
+2024-02-27 20:16:24.286 Frame 81: Before win.flip()
+2024-02-27 20:16:24.299 Frame 81: After win.flip()
+2024-02-27 20:16:24.302 Frame 82: Before win.flip()
+2024-02-27 20:16:24.317 Frame 82: After win.flip()
+2024-02-27 20:16:24.319 Frame 83: Before win.flip()
+2024-02-27 20:16:24.333 Frame 83: After win.flip()
+2024-02-27 20:16:24.336 Frame 84: Before win.flip()
+2024-02-27 20:16:24.349 Frame 84: After win.flip()
+2024-02-27 20:16:24.351 Frame 85: Before win.flip()
+2024-02-27 20:16:24.365 Frame 85: After win.flip()
+2024-02-27 20:16:24.368 Frame 86: Before win.flip()
+2024-02-27 20:16:24.382 Frame 86: After win.flip()
+2024-02-27 20:16:24.384 Frame 87: Before win.flip()
+2024-02-27 20:16:24.399 Frame 87: After win.flip()
+2024-02-27 20:16:24.401 Frame 88: Before win.flip()
+2024-02-27 20:16:24.416 Frame 88: After win.flip()
+2024-02-27 20:16:24.419 Frame 89: Before win.flip()
+2024-02-27 20:16:24.433 Frame 89: After win.flip()
+2024-02-27 20:16:24.433 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:16:24.451 Trigger sent: 0
+2024-02-27 20:16:24.451 Trigger reset after prediction prompt
+2024-02-27 20:16:24.451 Prediction prompt completed
+2024-02-27 20:16:24.451 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:16:24.451 Trial 1: Showing fixation cross
+2024-02-27 20:16:24.451 Showing fixation
+2024-02-27 20:16:25.950 Fixation ended
+2024-02-27 20:16:25.950 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:16:25.950 Trial 1: Showing word stimulus
+2024-02-27 20:16:25.951 Showing word stimulus for category: ANIMAL
+2024-02-27 20:16:25.967 Trigger sent: 3
+2024-02-27 20:16:25.984 Trigger sent: 0
+2024-02-27 20:16:27.451 Word stimulus "Finch" shown for category: ANIMAL
+2024-02-27 20:16:27.451 Trial 1: Word stimulus ended
+2024-02-27 20:16:27.451 Trial 1: Congruency category - Congruent
+2024-02-27 20:16:27.451 Trial 1: Data logged
+2024-02-27 20:19:39.406 Experiment started
+2024-02-27 20:19:39.891 Window and monitors initialized
+2024-02-27 20:19:39.891 Stimuli prepared
+2024-02-27 20:19:39.960 Setting up prediction prompt
+2024-02-27 20:19:41.067 Setting up word stimulus
+2024-02-27 20:19:41.067 Setting up data writer
+2024-02-27 20:19:41.067 Main experiment loop starting
+2024-02-27 20:19:41.067 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:19:41.708 Instruction ended
+2024-02-27 20:19:41.708 Starting trial 1
+2024-02-27 20:19:41.708 Trial 1: Selected cue "Pictures/Cue1_hammer.png", Category: "TOOL"
+2024-02-27 20:19:41.708 Trial 1: Showing fixation cross
+2024-02-27 20:19:41.708 Showing fixation
+2024-02-27 20:19:43.192 Fixation ended
+2024-02-27 20:19:43.192 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:19:43.192 Trial 1: Showing cue
+2024-02-27 20:19:43.192 Showing cue: Pictures/Cue1_hammer.png
+2024-02-27 20:19:43.255 Trigger sent: 1
+2024-02-27 20:19:43.291 Trigger sent: 0
+2024-02-27 20:19:44.742 Cue shown: Pictures/Cue1_hammer.png with duration 1.5 seconds
+2024-02-27 20:19:44.743 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:19:44.743 Trial 1: Showing fixation cross again
+2024-02-27 20:19:44.743 Showing fixation
+2024-02-27 20:19:46.244 Fixation ended
+2024-02-27 20:19:46.244 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:19:46.244 Trial 1: Starting prediction prompt
+2024-02-27 20:19:46.244 Starting prediction prompt
+2024-02-27 20:19:46.258 Frame 0: Before win.flip()
+2024-02-27 20:19:46.260 Trigger sent: 2
+2024-02-27 20:19:46.260 Frame 0: After win.flip()
+2024-02-27 20:19:46.263 Frame 1: Before win.flip()
+2024-02-27 20:19:46.276 Frame 1: After win.flip()
+2024-02-27 20:19:46.279 Frame 2: Before win.flip()
+2024-02-27 20:19:46.292 Frame 2: After win.flip()
+2024-02-27 20:19:46.296 Frame 3: Before win.flip()
+2024-02-27 20:19:46.309 Frame 3: After win.flip()
+2024-02-27 20:19:46.312 Frame 4: Before win.flip()
+2024-02-27 20:19:46.326 Frame 4: After win.flip()
+2024-02-27 20:19:46.328 Frame 5: Before win.flip()
+2024-02-27 20:19:46.343 Frame 5: After win.flip()
+2024-02-27 20:19:46.345 Frame 6: Before win.flip()
+2024-02-27 20:19:46.359 Frame 6: After win.flip()
+2024-02-27 20:19:46.362 Frame 7: Before win.flip()
+2024-02-27 20:19:46.376 Frame 7: After win.flip()
+2024-02-27 20:19:46.379 Frame 8: Before win.flip()
+2024-02-27 20:19:46.393 Frame 8: After win.flip()
+2024-02-27 20:19:46.395 Frame 9: Before win.flip()
+2024-02-27 20:19:46.409 Frame 9: After win.flip()
+2024-02-27 20:19:46.412 Frame 10: Before win.flip()
+2024-02-27 20:19:46.426 Frame 10: After win.flip()
+2024-02-27 20:19:46.429 Frame 11: Before win.flip()
+2024-02-27 20:19:46.443 Frame 11: After win.flip()
+2024-02-27 20:19:46.445 Frame 12: Before win.flip()
+2024-02-27 20:19:46.459 Frame 12: After win.flip()
+2024-02-27 20:19:46.461 Frame 13: Before win.flip()
+2024-02-27 20:19:46.476 Frame 13: After win.flip()
+2024-02-27 20:19:46.479 Frame 14: Before win.flip()
+2024-02-27 20:19:46.493 Frame 14: After win.flip()
+2024-02-27 20:19:46.495 Frame 15: Before win.flip()
+2024-02-27 20:19:46.509 Frame 15: After win.flip()
+2024-02-27 20:19:46.512 Frame 16: Before win.flip()
+2024-02-27 20:19:46.526 Frame 16: After win.flip()
+2024-02-27 20:19:46.529 Frame 17: Before win.flip()
+2024-02-27 20:19:46.543 Frame 17: After win.flip()
+2024-02-27 20:19:46.546 Frame 18: Before win.flip()
+2024-02-27 20:19:46.560 Frame 18: After win.flip()
+2024-02-27 20:19:46.563 Frame 19: Before win.flip()
+2024-02-27 20:19:46.576 Frame 19: After win.flip()
+2024-02-27 20:19:46.579 Frame 20: Before win.flip()
+2024-02-27 20:19:46.593 Frame 20: After win.flip()
+2024-02-27 20:19:46.595 Frame 21: Before win.flip()
+2024-02-27 20:19:46.609 Frame 21: After win.flip()
+2024-02-27 20:19:46.611 Frame 22: Before win.flip()
+2024-02-27 20:19:46.627 Frame 22: After win.flip()
+2024-02-27 20:19:46.629 Frame 23: Before win.flip()
+2024-02-27 20:19:46.643 Frame 23: After win.flip()
+2024-02-27 20:19:46.646 Frame 24: Before win.flip()
+2024-02-27 20:19:46.659 Frame 24: After win.flip()
+2024-02-27 20:19:46.662 Frame 25: Before win.flip()
+2024-02-27 20:19:46.676 Frame 25: After win.flip()
+2024-02-27 20:19:46.678 Frame 26: Before win.flip()
+2024-02-27 20:19:46.693 Frame 26: After win.flip()
+2024-02-27 20:19:46.696 Frame 27: Before win.flip()
+2024-02-27 20:19:46.709 Frame 27: After win.flip()
+2024-02-27 20:19:46.712 Frame 28: Before win.flip()
+2024-02-27 20:19:46.726 Frame 28: After win.flip()
+2024-02-27 20:19:46.729 Frame 29: Before win.flip()
+2024-02-27 20:19:46.743 Frame 29: After win.flip()
+2024-02-27 20:19:46.746 Frame 30: Before win.flip()
+2024-02-27 20:19:46.759 Frame 30: After win.flip()
+2024-02-27 20:19:46.762 Frame 31: Before win.flip()
+2024-02-27 20:19:46.777 Frame 31: After win.flip()
+2024-02-27 20:19:46.780 Frame 32: Before win.flip()
+2024-02-27 20:19:46.793 Frame 32: After win.flip()
+2024-02-27 20:19:46.797 Frame 33: Before win.flip()
+2024-02-27 20:19:46.809 Frame 33: After win.flip()
+2024-02-27 20:19:46.812 Frame 34: Before win.flip()
+2024-02-27 20:19:46.826 Frame 34: After win.flip()
+2024-02-27 20:19:46.829 Frame 35: Before win.flip()
+2024-02-27 20:19:46.843 Frame 35: After win.flip()
+2024-02-27 20:19:46.845 Frame 36: Before win.flip()
+2024-02-27 20:19:46.860 Frame 36: After win.flip()
+2024-02-27 20:19:46.862 Frame 37: Before win.flip()
+2024-02-27 20:19:46.876 Frame 37: After win.flip()
+2024-02-27 20:19:46.878 Frame 38: Before win.flip()
+2024-02-27 20:19:46.893 Frame 38: After win.flip()
+2024-02-27 20:19:46.895 Frame 39: Before win.flip()
+2024-02-27 20:19:46.909 Frame 39: After win.flip()
+2024-02-27 20:19:46.912 Frame 40: Before win.flip()
+2024-02-27 20:19:46.927 Frame 40: After win.flip()
+2024-02-27 20:19:46.929 Frame 41: Before win.flip()
+2024-02-27 20:19:46.943 Frame 41: After win.flip()
+2024-02-27 20:19:46.946 Frame 42: Before win.flip()
+2024-02-27 20:19:46.960 Frame 42: After win.flip()
+2024-02-27 20:19:46.962 Frame 43: Before win.flip()
+2024-02-27 20:19:46.976 Frame 43: After win.flip()
+2024-02-27 20:19:46.979 Frame 44: Before win.flip()
+2024-02-27 20:19:46.993 Frame 44: After win.flip()
+2024-02-27 20:19:46.996 Frame 45: Before win.flip()
+2024-02-27 20:19:47.009 Frame 45: After win.flip()
+2024-02-27 20:19:47.011 Frame 46: Before win.flip()
+2024-02-27 20:19:47.026 Frame 46: After win.flip()
+2024-02-27 20:19:47.029 Frame 47: Before win.flip()
+2024-02-27 20:19:47.043 Frame 47: After win.flip()
+2024-02-27 20:19:47.046 Frame 48: Before win.flip()
+2024-02-27 20:19:47.060 Frame 48: After win.flip()
+2024-02-27 20:19:47.063 Frame 49: Before win.flip()
+2024-02-27 20:19:47.077 Frame 49: After win.flip()
+2024-02-27 20:19:47.080 Frame 50: Before win.flip()
+2024-02-27 20:19:47.093 Frame 50: After win.flip()
+2024-02-27 20:19:47.097 Frame 51: Before win.flip()
+2024-02-27 20:19:47.109 Frame 51: After win.flip()
+2024-02-27 20:19:47.111 Frame 52: Before win.flip()
+2024-02-27 20:19:47.126 Frame 52: After win.flip()
+2024-02-27 20:19:47.128 Frame 53: Before win.flip()
+2024-02-27 20:19:47.143 Frame 53: After win.flip()
+2024-02-27 20:19:47.145 Frame 54: Before win.flip()
+2024-02-27 20:19:47.160 Frame 54: After win.flip()
+2024-02-27 20:19:47.162 Frame 55: Before win.flip()
+2024-02-27 20:19:47.177 Frame 55: After win.flip()
+2024-02-27 20:19:47.179 Frame 56: Before win.flip()
+2024-02-27 20:19:47.193 Frame 56: After win.flip()
+2024-02-27 20:19:47.195 Frame 57: Before win.flip()
+2024-02-27 20:19:47.210 Frame 57: After win.flip()
+2024-02-27 20:19:47.213 Frame 58: Before win.flip()
+2024-02-27 20:19:47.226 Frame 58: After win.flip()
+2024-02-27 20:19:47.229 Frame 59: Before win.flip()
+2024-02-27 20:19:47.243 Frame 59: After win.flip()
+2024-02-27 20:19:47.246 Frame 60: Before win.flip()
+2024-02-27 20:19:47.260 Frame 60: After win.flip()
+2024-02-27 20:19:47.264 Frame 61: Before win.flip()
+2024-02-27 20:19:47.277 Frame 61: After win.flip()
+2024-02-27 20:19:47.281 Frame 62: Before win.flip()
+2024-02-27 20:19:47.294 Frame 62: After win.flip()
+2024-02-27 20:19:47.297 Frame 63: Before win.flip()
+2024-02-27 20:19:47.310 Frame 63: After win.flip()
+2024-02-27 20:19:47.313 Frame 64: Before win.flip()
+2024-02-27 20:19:47.326 Frame 64: After win.flip()
+2024-02-27 20:19:47.329 Frame 65: Before win.flip()
+2024-02-27 20:19:47.343 Frame 65: After win.flip()
+2024-02-27 20:19:47.346 Frame 66: Before win.flip()
+2024-02-27 20:19:47.360 Frame 66: After win.flip()
+2024-02-27 20:19:47.362 Frame 67: Before win.flip()
+2024-02-27 20:19:47.377 Frame 67: After win.flip()
+2024-02-27 20:19:47.379 Frame 68: Before win.flip()
+2024-02-27 20:19:47.393 Frame 68: After win.flip()
+2024-02-27 20:19:47.395 Frame 69: Before win.flip()
+2024-02-27 20:19:47.410 Frame 69: After win.flip()
+2024-02-27 20:19:47.413 Frame 70: Before win.flip()
+2024-02-27 20:19:47.427 Frame 70: After win.flip()
+2024-02-27 20:19:47.430 Frame 71: Before win.flip()
+2024-02-27 20:19:47.443 Frame 71: After win.flip()
+2024-02-27 20:19:47.445 Frame 72: Before win.flip()
+2024-02-27 20:19:47.460 Frame 72: After win.flip()
+2024-02-27 20:19:47.462 Frame 73: Before win.flip()
+2024-02-27 20:19:47.476 Frame 73: After win.flip()
+2024-02-27 20:19:47.480 Frame 74: Before win.flip()
+2024-02-27 20:19:47.493 Frame 74: After win.flip()
+2024-02-27 20:19:47.496 Frame 75: Before win.flip()
+2024-02-27 20:19:47.510 Frame 75: After win.flip()
+2024-02-27 20:19:47.514 Frame 76: Before win.flip()
+2024-02-27 20:19:47.527 Frame 76: After win.flip()
+2024-02-27 20:19:47.529 Frame 77: Before win.flip()
+2024-02-27 20:19:47.543 Frame 77: After win.flip()
+2024-02-27 20:19:47.546 Frame 78: Before win.flip()
+2024-02-27 20:19:47.559 Frame 78: After win.flip()
+2024-02-27 20:19:47.563 Frame 79: Before win.flip()
+2024-02-27 20:19:47.576 Frame 79: After win.flip()
+2024-02-27 20:19:47.579 Frame 80: Before win.flip()
+2024-02-27 20:19:47.593 Frame 80: After win.flip()
+2024-02-27 20:19:47.596 Frame 81: Before win.flip()
+2024-02-27 20:19:47.610 Frame 81: After win.flip()
+2024-02-27 20:19:47.612 Frame 82: Before win.flip()
+2024-02-27 20:19:47.626 Frame 82: After win.flip()
+2024-02-27 20:19:47.629 Frame 83: Before win.flip()
+2024-02-27 20:19:47.643 Frame 83: After win.flip()
+2024-02-27 20:19:47.646 Frame 84: Before win.flip()
+2024-02-27 20:19:47.660 Frame 84: After win.flip()
+2024-02-27 20:19:47.662 Frame 85: Before win.flip()
+2024-02-27 20:19:47.677 Frame 85: After win.flip()
+2024-02-27 20:19:47.680 Frame 86: Before win.flip()
+2024-02-27 20:19:47.693 Frame 86: After win.flip()
+2024-02-27 20:19:47.696 Frame 87: Before win.flip()
+2024-02-27 20:19:47.711 Frame 87: After win.flip()
+2024-02-27 20:19:47.713 Frame 88: Before win.flip()
+2024-02-27 20:19:47.727 Frame 88: After win.flip()
+2024-02-27 20:19:47.729 Frame 89: Before win.flip()
+2024-02-27 20:19:47.743 Frame 89: After win.flip()
+2024-02-27 20:19:47.743 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:19:47.760 Trigger sent: 0
+2024-02-27 20:19:47.760 Trigger reset after prediction prompt
+2024-02-27 20:19:47.760 Prediction prompt completed
+2024-02-27 20:19:47.760 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:19:47.760 Trial 1: Showing fixation cross
+2024-02-27 20:19:47.760 Showing fixation
+2024-02-27 20:19:49.261 Fixation ended
+2024-02-27 20:19:49.261 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:19:49.261 Trial 1: Showing word stimulus
+2024-02-27 20:19:49.261 Showing word stimulus for category: TOOL
+2024-02-27 20:19:49.277 Trigger sent: 3
+2024-02-27 20:19:49.294 Trigger sent: 0
+2024-02-27 20:19:50.762 Word stimulus "Anvil" shown for category: TOOL
+2024-02-27 20:19:50.762 Trial 1: Word stimulus ended
+2024-02-27 20:19:50.762 Trial 1: Congruency category - Congruent
+2024-02-27 20:20:16.553 Experiment started
+2024-02-27 20:20:17.006 Window and monitors initialized
+2024-02-27 20:20:17.006 Stimuli prepared
+2024-02-27 20:20:17.086 Setting up prediction prompt
+2024-02-27 20:20:18.256 Setting up word stimulus
+2024-02-27 20:20:18.256 Setting up data writer
+2024-02-27 20:20:18.256 Main experiment loop starting
+2024-02-27 20:20:18.256 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:20:18.662 Instruction ended
+2024-02-27 20:20:18.662 Starting trial 1
+2024-02-27 20:20:18.662 Trial 1: Selected cue "Pictures/Cue2_cat.png", Category: "ANIMAL"
+2024-02-27 20:20:18.662 Trial 1: Showing fixation cross
+2024-02-27 20:20:18.662 Showing fixation
+2024-02-27 20:20:20.155 Fixation ended
+2024-02-27 20:20:20.155 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:20:20.155 Trial 1: Showing cue
+2024-02-27 20:20:20.155 Showing cue: Pictures/Cue2_cat.png
+2024-02-27 20:20:20.195 Trigger sent: 1
+2024-02-27 20:20:20.222 Trigger sent: 0
+2024-02-27 20:20:21.673 Cue shown: Pictures/Cue2_cat.png with duration 1.5 seconds
+2024-02-27 20:20:21.673 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:20:21.673 Trial 1: Showing fixation cross again
+2024-02-27 20:20:21.673 Showing fixation
+2024-02-27 20:20:23.174 Fixation ended
+2024-02-27 20:20:23.174 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:20:23.174 Trial 1: Starting prediction prompt
+2024-02-27 20:20:23.174 Starting prediction prompt
+2024-02-27 20:20:23.187 Frame 0: Before win.flip()
+2024-02-27 20:20:23.190 Trigger sent: 2
+2024-02-27 20:20:23.190 Frame 0: After win.flip()
+2024-02-27 20:20:23.193 Frame 1: Before win.flip()
+2024-02-27 20:20:23.207 Frame 1: After win.flip()
+2024-02-27 20:20:23.209 Frame 2: Before win.flip()
+2024-02-27 20:20:23.225 Frame 2: After win.flip()
+2024-02-27 20:20:23.228 Frame 3: Before win.flip()
+2024-02-27 20:20:23.240 Frame 3: After win.flip()
+2024-02-27 20:20:23.243 Frame 4: Before win.flip()
+2024-02-27 20:20:23.257 Frame 4: After win.flip()
+2024-02-27 20:20:23.260 Frame 5: Before win.flip()
+2024-02-27 20:20:23.274 Frame 5: After win.flip()
+2024-02-27 20:20:23.276 Frame 6: Before win.flip()
+2024-02-27 20:20:23.290 Frame 6: After win.flip()
+2024-02-27 20:20:23.293 Frame 7: Before win.flip()
+2024-02-27 20:20:23.307 Frame 7: After win.flip()
+2024-02-27 20:20:23.309 Frame 8: Before win.flip()
+2024-02-27 20:20:23.324 Frame 8: After win.flip()
+2024-02-27 20:20:23.327 Frame 9: Before win.flip()
+2024-02-27 20:20:23.341 Frame 9: After win.flip()
+2024-02-27 20:20:23.344 Frame 10: Before win.flip()
+2024-02-27 20:20:23.357 Frame 10: After win.flip()
+2024-02-27 20:20:23.360 Frame 11: Before win.flip()
+2024-02-27 20:20:23.374 Frame 11: After win.flip()
+2024-02-27 20:20:23.377 Frame 12: Before win.flip()
+2024-02-27 20:20:23.390 Frame 12: After win.flip()
+2024-02-27 20:20:23.393 Frame 13: Before win.flip()
+2024-02-27 20:20:23.407 Frame 13: After win.flip()
+2024-02-27 20:20:23.410 Frame 14: Before win.flip()
+2024-02-27 20:20:23.424 Frame 14: After win.flip()
+2024-02-27 20:20:23.426 Frame 15: Before win.flip()
+2024-02-27 20:20:23.440 Frame 15: After win.flip()
+2024-02-27 20:20:23.443 Frame 16: Before win.flip()
+2024-02-27 20:20:23.457 Frame 16: After win.flip()
+2024-02-27 20:20:23.460 Frame 17: Before win.flip()
+2024-02-27 20:20:23.473 Frame 17: After win.flip()
+2024-02-27 20:20:23.475 Frame 18: Before win.flip()
+2024-02-27 20:20:23.490 Frame 18: After win.flip()
+2024-02-27 20:20:23.493 Frame 19: Before win.flip()
+2024-02-27 20:20:23.507 Frame 19: After win.flip()
+2024-02-27 20:20:23.511 Frame 20: Before win.flip()
+2024-02-27 20:20:23.523 Frame 20: After win.flip()
+2024-02-27 20:20:23.525 Frame 21: Before win.flip()
+2024-02-27 20:20:23.540 Frame 21: After win.flip()
+2024-02-27 20:20:23.543 Frame 22: Before win.flip()
+2024-02-27 20:20:23.556 Frame 22: After win.flip()
+2024-02-27 20:20:23.559 Frame 23: Before win.flip()
+2024-02-27 20:20:23.574 Frame 23: After win.flip()
+2024-02-27 20:20:23.577 Frame 24: Before win.flip()
+2024-02-27 20:20:23.590 Frame 24: After win.flip()
+2024-02-27 20:20:23.593 Frame 25: Before win.flip()
+2024-02-27 20:20:23.606 Frame 25: After win.flip()
+2024-02-27 20:20:23.609 Frame 26: Before win.flip()
+2024-02-27 20:20:23.623 Frame 26: After win.flip()
+2024-02-27 20:20:23.626 Frame 27: Before win.flip()
+2024-02-27 20:20:23.640 Frame 27: After win.flip()
+2024-02-27 20:20:23.643 Frame 28: Before win.flip()
+2024-02-27 20:20:23.656 Frame 28: After win.flip()
+2024-02-27 20:20:23.659 Frame 29: Before win.flip()
+2024-02-27 20:20:23.673 Frame 29: After win.flip()
+2024-02-27 20:20:23.676 Frame 30: Before win.flip()
+2024-02-27 20:20:23.690 Frame 30: After win.flip()
+2024-02-27 20:20:23.693 Frame 31: Before win.flip()
+2024-02-27 20:20:23.706 Frame 31: After win.flip()
+2024-02-27 20:20:23.709 Frame 32: Before win.flip()
+2024-02-27 20:20:23.724 Frame 32: After win.flip()
+2024-02-27 20:20:23.726 Frame 33: Before win.flip()
+2024-02-27 20:20:23.740 Frame 33: After win.flip()
+2024-02-27 20:20:23.742 Frame 34: Before win.flip()
+2024-02-27 20:20:23.757 Frame 34: After win.flip()
+2024-02-27 20:20:23.760 Frame 35: Before win.flip()
+2024-02-27 20:20:23.774 Frame 35: After win.flip()
+2024-02-27 20:20:23.777 Frame 36: Before win.flip()
+2024-02-27 20:20:23.790 Frame 36: After win.flip()
+2024-02-27 20:20:23.794 Frame 37: Before win.flip()
+2024-02-27 20:20:23.807 Frame 37: After win.flip()
+2024-02-27 20:20:23.810 Frame 38: Before win.flip()
+2024-02-27 20:20:23.825 Frame 38: After win.flip()
+2024-02-27 20:20:23.827 Frame 39: Before win.flip()
+2024-02-27 20:20:23.840 Frame 39: After win.flip()
+2024-02-27 20:20:23.843 Frame 40: Before win.flip()
+2024-02-27 20:20:23.857 Frame 40: After win.flip()
+2024-02-27 20:20:23.859 Frame 41: Before win.flip()
+2024-02-27 20:20:23.874 Frame 41: After win.flip()
+2024-02-27 20:20:23.876 Frame 42: Before win.flip()
+2024-02-27 20:20:23.890 Frame 42: After win.flip()
+2024-02-27 20:20:23.893 Frame 43: Before win.flip()
+2024-02-27 20:20:23.907 Frame 43: After win.flip()
+2024-02-27 20:20:23.909 Frame 44: Before win.flip()
+2024-02-27 20:20:23.923 Frame 44: After win.flip()
+2024-02-27 20:20:23.927 Frame 45: Before win.flip()
+2024-02-27 20:20:23.940 Frame 45: After win.flip()
+2024-02-27 20:20:23.943 Frame 46: Before win.flip()
+2024-02-27 20:20:23.957 Frame 46: After win.flip()
+2024-02-27 20:20:23.959 Frame 47: Before win.flip()
+2024-02-27 20:20:23.974 Frame 47: After win.flip()
+2024-02-27 20:20:23.976 Frame 48: Before win.flip()
+2024-02-27 20:20:23.990 Frame 48: After win.flip()
+2024-02-27 20:20:23.993 Frame 49: Before win.flip()
+2024-02-27 20:20:24.007 Frame 49: After win.flip()
+2024-02-27 20:20:24.009 Frame 50: Before win.flip()
+2024-02-27 20:20:24.024 Frame 50: After win.flip()
+2024-02-27 20:20:24.026 Frame 51: Before win.flip()
+2024-02-27 20:20:24.041 Frame 51: After win.flip()
+2024-02-27 20:20:24.043 Frame 52: Before win.flip()
+2024-02-27 20:20:24.057 Frame 52: After win.flip()
+2024-02-27 20:20:24.059 Frame 53: Before win.flip()
+2024-02-27 20:20:24.073 Frame 53: After win.flip()
+2024-02-27 20:20:24.075 Frame 54: Before win.flip()
+2024-02-27 20:20:24.090 Frame 54: After win.flip()
+2024-02-27 20:20:24.093 Frame 55: Before win.flip()
+2024-02-27 20:20:24.107 Frame 55: After win.flip()
+2024-02-27 20:20:24.110 Frame 56: Before win.flip()
+2024-02-27 20:20:24.123 Frame 56: After win.flip()
+2024-02-27 20:20:24.126 Frame 57: Before win.flip()
+2024-02-27 20:20:24.141 Frame 57: After win.flip()
+2024-02-27 20:20:24.144 Frame 58: Before win.flip()
+2024-02-27 20:20:24.157 Frame 58: After win.flip()
+2024-02-27 20:20:24.160 Frame 59: Before win.flip()
+2024-02-27 20:20:24.174 Frame 59: After win.flip()
+2024-02-27 20:20:24.176 Frame 60: Before win.flip()
+2024-02-27 20:20:24.190 Frame 60: After win.flip()
+2024-02-27 20:20:24.193 Frame 61: Before win.flip()
+2024-02-27 20:20:24.207 Frame 61: After win.flip()
+2024-02-27 20:20:24.210 Frame 62: Before win.flip()
+2024-02-27 20:20:24.224 Frame 62: After win.flip()
+2024-02-27 20:20:24.226 Frame 63: Before win.flip()
+2024-02-27 20:20:24.240 Frame 63: After win.flip()
+2024-02-27 20:20:24.243 Frame 64: Before win.flip()
+2024-02-27 20:20:24.257 Frame 64: After win.flip()
+2024-02-27 20:20:24.260 Frame 65: Before win.flip()
+2024-02-27 20:20:24.274 Frame 65: After win.flip()
+2024-02-27 20:20:24.276 Frame 66: Before win.flip()
+2024-02-27 20:20:24.290 Frame 66: After win.flip()
+2024-02-27 20:20:24.293 Frame 67: Before win.flip()
+2024-02-27 20:20:24.307 Frame 67: After win.flip()
+2024-02-27 20:20:24.309 Frame 68: Before win.flip()
+2024-02-27 20:20:24.323 Frame 68: After win.flip()
+2024-02-27 20:20:24.326 Frame 69: Before win.flip()
+2024-02-27 20:20:24.340 Frame 69: After win.flip()
+2024-02-27 20:20:24.343 Frame 70: Before win.flip()
+2024-02-27 20:20:24.356 Frame 70: After win.flip()
+2024-02-27 20:20:24.359 Frame 71: Before win.flip()
+2024-02-27 20:20:24.374 Frame 71: After win.flip()
+2024-02-27 20:20:24.376 Frame 72: Before win.flip()
+2024-02-27 20:20:24.390 Frame 72: After win.flip()
+2024-02-27 20:20:24.392 Frame 73: Before win.flip()
+2024-02-27 20:20:24.407 Frame 73: After win.flip()
+2024-02-27 20:20:24.409 Frame 74: Before win.flip()
+2024-02-27 20:20:24.424 Frame 74: After win.flip()
+2024-02-27 20:20:24.426 Frame 75: Before win.flip()
+2024-02-27 20:20:24.440 Frame 75: After win.flip()
+2024-02-27 20:20:24.443 Frame 76: Before win.flip()
+2024-02-27 20:20:24.457 Frame 76: After win.flip()
+2024-02-27 20:20:24.460 Frame 77: Before win.flip()
+2024-02-27 20:20:24.474 Frame 77: After win.flip()
+2024-02-27 20:20:24.478 Frame 78: Before win.flip()
+2024-02-27 20:20:24.491 Frame 78: After win.flip()
+2024-02-27 20:20:24.494 Frame 79: Before win.flip()
+2024-02-27 20:20:24.507 Frame 79: After win.flip()
+2024-02-27 20:20:24.510 Frame 80: Before win.flip()
+2024-02-27 20:20:24.524 Frame 80: After win.flip()
+2024-02-27 20:20:24.526 Frame 81: Before win.flip()
+2024-02-27 20:20:24.541 Frame 81: After win.flip()
+2024-02-27 20:20:24.543 Frame 82: Before win.flip()
+2024-02-27 20:20:24.558 Frame 82: After win.flip()
+2024-02-27 20:20:24.561 Frame 83: Before win.flip()
+2024-02-27 20:20:24.574 Frame 83: After win.flip()
+2024-02-27 20:20:24.576 Frame 84: Before win.flip()
+2024-02-27 20:20:24.590 Frame 84: After win.flip()
+2024-02-27 20:20:24.592 Frame 85: Before win.flip()
+2024-02-27 20:20:24.607 Frame 85: After win.flip()
+2024-02-27 20:20:24.610 Frame 86: Before win.flip()
+2024-02-27 20:20:24.624 Frame 86: After win.flip()
+2024-02-27 20:20:24.627 Frame 87: Before win.flip()
+2024-02-27 20:20:24.640 Frame 87: After win.flip()
+2024-02-27 20:20:24.643 Frame 88: Before win.flip()
+2024-02-27 20:20:24.657 Frame 88: After win.flip()
+2024-02-27 20:20:24.659 Frame 89: Before win.flip()
+2024-02-27 20:20:24.674 Frame 89: After win.flip()
+2024-02-27 20:20:24.674 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:20:24.691 Trigger sent: 0
+2024-02-27 20:20:24.691 Trigger reset after prediction prompt
+2024-02-27 20:20:24.692 Prediction prompt completed
+2024-02-27 20:20:24.692 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:20:24.692 Trial 1: Showing fixation cross
+2024-02-27 20:20:24.692 Showing fixation
+2024-02-27 20:20:26.191 Fixation ended
+2024-02-27 20:20:26.192 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:20:26.192 Trial 1: Showing word stimulus
+2024-02-27 20:20:26.192 Showing word stimulus for category: ANIMAL
+2024-02-27 20:20:26.208 Trigger sent: 3
+2024-02-27 20:20:26.225 Trigger sent: 0
+2024-02-27 20:20:27.693 Word stimulus "Llama" shown for category: ANIMAL
+2024-02-27 20:20:27.693 Trial 1: Word stimulus ended
+2024-02-27 20:20:27.693 Trial 1: Congruency category - Congruent
+2024-02-27 20:20:58.342 Experiment started
+2024-02-27 20:20:58.788 Window and monitors initialized
+2024-02-27 20:20:58.788 Stimuli prepared
+2024-02-27 20:20:58.859 Setting up prediction prompt
+2024-02-27 20:21:00.120 Setting up word stimulus
+2024-02-27 20:21:00.120 Setting up data writer
+2024-02-27 20:21:00.120 Main experiment loop starting
+2024-02-27 20:21:00.121 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:21:00.437 Instruction ended
+2024-02-27 20:21:00.437 Starting trial 1
+2024-02-27 20:21:00.437 Trial 1: Selected cue "Pictures/Cue2_cat.png", Category: "TOOL"
+2024-02-27 20:21:00.437 Trial 1: Showing fixation cross
+2024-02-27 20:21:00.437 Showing fixation
+2024-02-27 20:21:01.922 Fixation ended
+2024-02-27 20:21:01.922 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:21:01.922 Trial 1: Showing cue
+2024-02-27 20:21:01.922 Showing cue: Pictures/Cue2_cat.png
+2024-02-27 20:21:01.965 Trigger sent: 1
+2024-02-27 20:21:01.988 Trigger sent: 0
+2024-02-27 20:21:03.439 Cue shown: Pictures/Cue2_cat.png with duration 1.5 seconds
+2024-02-27 20:21:03.440 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:21:03.440 Trial 1: Showing fixation cross again
+2024-02-27 20:21:03.440 Showing fixation
+2024-02-27 20:21:04.940 Fixation ended
+2024-02-27 20:21:04.940 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:21:04.940 Trial 1: Starting prediction prompt
+2024-02-27 20:21:04.940 Starting prediction prompt
+2024-02-27 20:21:04.953 Frame 0: Before win.flip()
+2024-02-27 20:21:04.956 Trigger sent: 2
+2024-02-27 20:21:04.957 Frame 0: After win.flip()
+2024-02-27 20:21:04.959 Frame 1: Before win.flip()
+2024-02-27 20:21:04.973 Frame 1: After win.flip()
+2024-02-27 20:21:04.976 Frame 2: Before win.flip()
+2024-02-27 20:21:04.989 Frame 2: After win.flip()
+2024-02-27 20:21:04.991 Frame 3: Before win.flip()
+2024-02-27 20:21:05.006 Frame 3: After win.flip()
+2024-02-27 20:21:05.009 Frame 4: Before win.flip()
+2024-02-27 20:21:05.023 Frame 4: After win.flip()
+2024-02-27 20:21:05.026 Frame 5: Before win.flip()
+2024-02-27 20:21:05.039 Frame 5: After win.flip()
+2024-02-27 20:21:05.042 Frame 6: Before win.flip()
+2024-02-27 20:21:05.056 Frame 6: After win.flip()
+2024-02-27 20:21:05.059 Frame 7: Before win.flip()
+2024-02-27 20:21:05.072 Frame 7: After win.flip()
+2024-02-27 20:21:05.074 Frame 8: Before win.flip()
+2024-02-27 20:21:05.090 Frame 8: After win.flip()
+2024-02-27 20:21:05.092 Frame 9: Before win.flip()
+2024-02-27 20:21:05.106 Frame 9: After win.flip()
+2024-02-27 20:21:05.109 Frame 10: Before win.flip()
+2024-02-27 20:21:05.123 Frame 10: After win.flip()
+2024-02-27 20:21:05.126 Frame 11: Before win.flip()
+2024-02-27 20:21:05.140 Frame 11: After win.flip()
+2024-02-27 20:21:05.143 Frame 12: Before win.flip()
+2024-02-27 20:21:05.156 Frame 12: After win.flip()
+2024-02-27 20:21:05.159 Frame 13: Before win.flip()
+2024-02-27 20:21:05.173 Frame 13: After win.flip()
+2024-02-27 20:21:05.175 Frame 14: Before win.flip()
+2024-02-27 20:21:05.189 Frame 14: After win.flip()
+2024-02-27 20:21:05.192 Frame 15: Before win.flip()
+2024-02-27 20:21:05.206 Frame 15: After win.flip()
+2024-02-27 20:21:05.208 Frame 16: Before win.flip()
+2024-02-27 20:21:05.223 Frame 16: After win.flip()
+2024-02-27 20:21:05.226 Frame 17: Before win.flip()
+2024-02-27 20:21:05.240 Frame 17: After win.flip()
+2024-02-27 20:21:05.243 Frame 18: Before win.flip()
+2024-02-27 20:21:05.256 Frame 18: After win.flip()
+2024-02-27 20:21:05.259 Frame 19: Before win.flip()
+2024-02-27 20:21:05.273 Frame 19: After win.flip()
+2024-02-27 20:21:05.275 Frame 20: Before win.flip()
+2024-02-27 20:21:05.289 Frame 20: After win.flip()
+2024-02-27 20:21:05.291 Frame 21: Before win.flip()
+2024-02-27 20:21:05.306 Frame 21: After win.flip()
+2024-02-27 20:21:05.309 Frame 22: Before win.flip()
+2024-02-27 20:21:05.323 Frame 22: After win.flip()
+2024-02-27 20:21:05.326 Frame 23: Before win.flip()
+2024-02-27 20:21:05.340 Frame 23: After win.flip()
+2024-02-27 20:21:05.342 Frame 24: Before win.flip()
+2024-02-27 20:21:05.356 Frame 24: After win.flip()
+2024-02-27 20:21:05.358 Frame 25: Before win.flip()
+2024-02-27 20:21:05.372 Frame 25: After win.flip()
+2024-02-27 20:21:05.375 Frame 26: Before win.flip()
+2024-02-27 20:21:05.389 Frame 26: After win.flip()
+2024-02-27 20:21:05.392 Frame 27: Before win.flip()
+2024-02-27 20:21:05.406 Frame 27: After win.flip()
+2024-02-27 20:21:05.408 Frame 28: Before win.flip()
+2024-02-27 20:21:05.423 Frame 28: After win.flip()
+2024-02-27 20:21:05.426 Frame 29: Before win.flip()
+2024-02-27 20:21:05.440 Frame 29: After win.flip()
+2024-02-27 20:21:05.443 Frame 30: Before win.flip()
+2024-02-27 20:21:05.456 Frame 30: After win.flip()
+2024-02-27 20:21:05.458 Frame 31: Before win.flip()
+2024-02-27 20:21:05.473 Frame 31: After win.flip()
+2024-02-27 20:21:05.476 Frame 32: Before win.flip()
+2024-02-27 20:21:05.490 Frame 32: After win.flip()
+2024-02-27 20:21:05.492 Frame 33: Before win.flip()
+2024-02-27 20:21:05.506 Frame 33: After win.flip()
+2024-02-27 20:21:05.508 Frame 34: Before win.flip()
+2024-02-27 20:21:05.523 Frame 34: After win.flip()
+2024-02-27 20:21:05.525 Frame 35: Before win.flip()
+2024-02-27 20:21:05.540 Frame 35: After win.flip()
+2024-02-27 20:21:05.543 Frame 36: Before win.flip()
+2024-02-27 20:21:05.556 Frame 36: After win.flip()
+2024-02-27 20:21:05.558 Frame 37: Before win.flip()
+2024-02-27 20:21:05.572 Frame 37: After win.flip()
+2024-02-27 20:21:05.575 Frame 38: Before win.flip()
+2024-02-27 20:21:05.589 Frame 38: After win.flip()
+2024-02-27 20:21:05.592 Frame 39: Before win.flip()
+2024-02-27 20:21:05.606 Frame 39: After win.flip()
+2024-02-27 20:21:05.609 Frame 40: Before win.flip()
+2024-02-27 20:21:05.623 Frame 40: After win.flip()
+2024-02-27 20:21:05.626 Frame 41: Before win.flip()
+2024-02-27 20:21:05.640 Frame 41: After win.flip()
+2024-02-27 20:21:05.643 Frame 42: Before win.flip()
+2024-02-27 20:21:05.656 Frame 42: After win.flip()
+2024-02-27 20:21:05.659 Frame 43: Before win.flip()
+2024-02-27 20:21:05.673 Frame 43: After win.flip()
+2024-02-27 20:21:05.676 Frame 44: Before win.flip()
+2024-02-27 20:21:05.690 Frame 44: After win.flip()
+2024-02-27 20:21:05.693 Frame 45: Before win.flip()
+2024-02-27 20:21:05.706 Frame 45: After win.flip()
+2024-02-27 20:21:05.709 Frame 46: Before win.flip()
+2024-02-27 20:21:05.723 Frame 46: After win.flip()
+2024-02-27 20:21:05.725 Frame 47: Before win.flip()
+2024-02-27 20:21:05.740 Frame 47: After win.flip()
+2024-02-27 20:21:05.742 Frame 48: Before win.flip()
+2024-02-27 20:21:05.757 Frame 48: After win.flip()
+2024-02-27 20:21:05.759 Frame 49: Before win.flip()
+2024-02-27 20:21:05.773 Frame 49: After win.flip()
+2024-02-27 20:21:05.775 Frame 50: Before win.flip()
+2024-02-27 20:21:05.789 Frame 50: After win.flip()
+2024-02-27 20:21:05.792 Frame 51: Before win.flip()
+2024-02-27 20:21:05.806 Frame 51: After win.flip()
+2024-02-27 20:21:05.808 Frame 52: Before win.flip()
+2024-02-27 20:21:05.823 Frame 52: After win.flip()
+2024-02-27 20:21:05.825 Frame 53: Before win.flip()
+2024-02-27 20:21:05.840 Frame 53: After win.flip()
+2024-02-27 20:21:05.842 Frame 54: Before win.flip()
+2024-02-27 20:21:05.857 Frame 54: After win.flip()
+2024-02-27 20:21:05.859 Frame 55: Before win.flip()
+2024-02-27 20:21:05.873 Frame 55: After win.flip()
+2024-02-27 20:21:05.876 Frame 56: Before win.flip()
+2024-02-27 20:21:05.889 Frame 56: After win.flip()
+2024-02-27 20:21:05.892 Frame 57: Before win.flip()
+2024-02-27 20:21:05.906 Frame 57: After win.flip()
+2024-02-27 20:21:05.908 Frame 58: Before win.flip()
+2024-02-27 20:21:05.923 Frame 58: After win.flip()
+2024-02-27 20:21:05.926 Frame 59: Before win.flip()
+2024-02-27 20:21:05.939 Frame 59: After win.flip()
+2024-02-27 20:21:05.943 Frame 60: Before win.flip()
+2024-02-27 20:21:05.957 Frame 60: After win.flip()
+2024-02-27 20:21:05.960 Frame 61: Before win.flip()
+2024-02-27 20:21:05.974 Frame 61: After win.flip()
+2024-02-27 20:21:05.976 Frame 62: Before win.flip()
+2024-02-27 20:21:05.990 Frame 62: After win.flip()
+2024-02-27 20:21:05.993 Frame 63: Before win.flip()
+2024-02-27 20:21:06.006 Frame 63: After win.flip()
+2024-02-27 20:21:06.008 Frame 64: Before win.flip()
+2024-02-27 20:21:06.023 Frame 64: After win.flip()
+2024-02-27 20:21:06.026 Frame 65: Before win.flip()
+2024-02-27 20:21:06.039 Frame 65: After win.flip()
+2024-02-27 20:21:06.042 Frame 66: Before win.flip()
+2024-02-27 20:21:06.056 Frame 66: After win.flip()
+2024-02-27 20:21:06.058 Frame 67: Before win.flip()
+2024-02-27 20:21:06.072 Frame 67: After win.flip()
+2024-02-27 20:21:06.075 Frame 68: Before win.flip()
+2024-02-27 20:21:06.090 Frame 68: After win.flip()
+2024-02-27 20:21:06.092 Frame 69: Before win.flip()
+2024-02-27 20:21:06.106 Frame 69: After win.flip()
+2024-02-27 20:21:06.109 Frame 70: Before win.flip()
+2024-02-27 20:21:06.123 Frame 70: After win.flip()
+2024-02-27 20:21:06.126 Frame 71: Before win.flip()
+2024-02-27 20:21:06.140 Frame 71: After win.flip()
+2024-02-27 20:21:06.143 Frame 72: Before win.flip()
+2024-02-27 20:21:06.155 Frame 72: After win.flip()
+2024-02-27 20:21:06.159 Frame 73: Before win.flip()
+2024-02-27 20:21:06.172 Frame 73: After win.flip()
+2024-02-27 20:21:06.174 Frame 74: Before win.flip()
+2024-02-27 20:21:06.190 Frame 74: After win.flip()
+2024-02-27 20:21:06.193 Frame 75: Before win.flip()
+2024-02-27 20:21:06.206 Frame 75: After win.flip()
+2024-02-27 20:21:06.209 Frame 76: Before win.flip()
+2024-02-27 20:21:06.223 Frame 76: After win.flip()
+2024-02-27 20:21:06.226 Frame 77: Before win.flip()
+2024-02-27 20:21:06.240 Frame 77: After win.flip()
+2024-02-27 20:21:06.242 Frame 78: Before win.flip()
+2024-02-27 20:21:06.257 Frame 78: After win.flip()
+2024-02-27 20:21:06.260 Frame 79: Before win.flip()
+2024-02-27 20:21:06.273 Frame 79: After win.flip()
+2024-02-27 20:21:06.275 Frame 80: Before win.flip()
+2024-02-27 20:21:06.289 Frame 80: After win.flip()
+2024-02-27 20:21:06.292 Frame 81: Before win.flip()
+2024-02-27 20:21:06.306 Frame 81: After win.flip()
+2024-02-27 20:21:06.309 Frame 82: Before win.flip()
+2024-02-27 20:21:06.324 Frame 82: After win.flip()
+2024-02-27 20:21:06.326 Frame 83: Before win.flip()
+2024-02-27 20:21:06.340 Frame 83: After win.flip()
+2024-02-27 20:21:06.343 Frame 84: Before win.flip()
+2024-02-27 20:21:06.357 Frame 84: After win.flip()
+2024-02-27 20:21:06.360 Frame 85: Before win.flip()
+2024-02-27 20:21:06.373 Frame 85: After win.flip()
+2024-02-27 20:21:06.376 Frame 86: Before win.flip()
+2024-02-27 20:21:06.390 Frame 86: After win.flip()
+2024-02-27 20:21:06.393 Frame 87: Before win.flip()
+2024-02-27 20:21:06.406 Frame 87: After win.flip()
+2024-02-27 20:21:06.409 Frame 88: Before win.flip()
+2024-02-27 20:21:06.423 Frame 88: After win.flip()
+2024-02-27 20:21:06.426 Frame 89: Before win.flip()
+2024-02-27 20:21:06.439 Frame 89: After win.flip()
+2024-02-27 20:21:06.439 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:21:06.457 Trigger sent: 0
+2024-02-27 20:21:06.457 Trigger reset after prediction prompt
+2024-02-27 20:21:06.457 Prediction prompt completed
+2024-02-27 20:21:06.457 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:21:06.457 Trial 1: Showing fixation cross
+2024-02-27 20:21:06.457 Showing fixation
+2024-02-27 20:21:07.958 Fixation ended
+2024-02-27 20:21:07.958 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:21:07.958 Trial 1: Showing word stimulus
+2024-02-27 20:21:07.958 Showing word stimulus for category: TOOL
+2024-02-27 20:21:07.974 Trigger sent: 3
+2024-02-27 20:21:07.990 Trigger sent: 0
+2024-02-27 20:21:09.458 Word stimulus "Chisel" shown for category: TOOL
+2024-02-27 20:21:09.458 Trial 1: Word stimulus ended
+2024-02-27 20:21:09.459 Trial 1: Congruency category - Congruent
+2024-02-27 20:25:38.767 Experiment started
+2024-02-27 20:25:39.296 Window and monitors initialized
+2024-02-27 20:25:39.296 Stimuli prepared
+2024-02-27 20:25:39.369 Setting up prediction prompt
+2024-02-27 20:25:40.482 Setting up word stimulus
+2024-02-27 20:25:40.482 Setting up data writer
+2024-02-27 20:25:40.483 Main experiment loop starting
+2024-02-27 20:25:40.483 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:25:41.046 Instruction ended
+2024-02-27 20:25:41.046 Starting trial 1
+2024-02-27 20:25:41.046 Trial 1: Selected cue "Pictures/Cue2_cat.png", Category: "ANIMAL"
+2024-02-27 20:25:41.046 Trial 1: Showing fixation cross
+2024-02-27 20:25:41.046 Showing fixation
+2024-02-27 20:25:42.528 Fixation ended
+2024-02-27 20:25:42.528 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:25:42.528 Trial 1: Showing cue
+2024-02-27 20:25:42.528 Showing cue: Pictures/Cue2_cat.png
+2024-02-27 20:25:42.585 Trigger sent: 1
+2024-02-27 20:25:42.612 Trigger sent: 0
+2024-02-27 20:25:44.063 Cue shown: Pictures/Cue2_cat.png with duration 1.5 seconds
+2024-02-27 20:25:44.063 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:25:44.063 Trial 1: Showing fixation cross again
+2024-02-27 20:25:44.063 Showing fixation
+2024-02-27 20:25:45.564 Fixation ended
+2024-02-27 20:25:45.564 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:25:45.564 Trial 1: Starting prediction prompt
+2024-02-27 20:25:45.564 Starting prediction prompt
+2024-02-27 20:25:45.579 Frame 0: Before win.flip()
+2024-02-27 20:25:45.581 Trigger sent: 2
+2024-02-27 20:25:45.581 Frame 0: After win.flip()
+2024-02-27 20:25:45.584 Frame 1: Before win.flip()
+2024-02-27 20:25:45.597 Frame 1: After win.flip()
+2024-02-27 20:25:45.600 Frame 2: Before win.flip()
+2024-02-27 20:25:45.612 Frame 2: After win.flip()
+2024-02-27 20:25:45.616 Frame 3: Before win.flip()
+2024-02-27 20:25:45.630 Frame 3: After win.flip()
+2024-02-27 20:25:45.633 Frame 4: Before win.flip()
+2024-02-27 20:25:45.646 Frame 4: After win.flip()
+2024-02-27 20:25:45.649 Frame 5: Before win.flip()
+2024-02-27 20:25:45.663 Frame 5: After win.flip()
+2024-02-27 20:25:45.666 Frame 6: Before win.flip()
+2024-02-27 20:25:45.680 Frame 6: After win.flip()
+2024-02-27 20:25:45.683 Frame 7: Before win.flip()
+2024-02-27 20:25:45.696 Frame 7: After win.flip()
+2024-02-27 20:25:45.698 Frame 8: Before win.flip()
+2024-02-27 20:25:45.713 Frame 8: After win.flip()
+2024-02-27 20:25:45.716 Frame 9: Before win.flip()
+2024-02-27 20:25:45.729 Frame 9: After win.flip()
+2024-02-27 20:25:45.731 Frame 10: Before win.flip()
+2024-02-27 20:25:45.746 Frame 10: After win.flip()
+2024-02-27 20:25:45.749 Frame 11: Before win.flip()
+2024-02-27 20:25:45.762 Frame 11: After win.flip()
+2024-02-27 20:25:45.765 Frame 12: Before win.flip()
+2024-02-27 20:25:45.781 Frame 12: After win.flip()
+2024-02-27 20:25:45.783 Frame 13: Before win.flip()
+2024-02-27 20:25:45.796 Frame 13: After win.flip()
+2024-02-27 20:25:45.799 Frame 14: Before win.flip()
+2024-02-27 20:25:45.813 Frame 14: After win.flip()
+2024-02-27 20:25:45.816 Frame 15: Before win.flip()
+2024-02-27 20:25:45.830 Frame 15: After win.flip()
+2024-02-27 20:25:45.833 Frame 16: Before win.flip()
+2024-02-27 20:25:45.847 Frame 16: After win.flip()
+2024-02-27 20:25:45.849 Frame 17: Before win.flip()
+2024-02-27 20:25:45.863 Frame 17: After win.flip()
+2024-02-27 20:25:45.866 Frame 18: Before win.flip()
+2024-02-27 20:25:45.880 Frame 18: After win.flip()
+2024-02-27 20:25:45.882 Frame 19: Before win.flip()
+2024-02-27 20:25:45.897 Frame 19: After win.flip()
+2024-02-27 20:25:45.899 Frame 20: Before win.flip()
+2024-02-27 20:25:45.913 Frame 20: After win.flip()
+2024-02-27 20:25:45.916 Frame 21: Before win.flip()
+2024-02-27 20:25:45.929 Frame 21: After win.flip()
+2024-02-27 20:25:45.932 Frame 22: Before win.flip()
+2024-02-27 20:25:45.946 Frame 22: After win.flip()
+2024-02-27 20:25:45.948 Frame 23: Before win.flip()
+2024-02-27 20:25:45.963 Frame 23: After win.flip()
+2024-02-27 20:25:45.966 Frame 24: Before win.flip()
+2024-02-27 20:25:45.980 Frame 24: After win.flip()
+2024-02-27 20:25:45.982 Frame 25: Before win.flip()
+2024-02-27 20:25:45.996 Frame 25: After win.flip()
+2024-02-27 20:25:45.998 Frame 26: Before win.flip()
+2024-02-27 20:25:46.013 Frame 26: After win.flip()
+2024-02-27 20:25:46.016 Frame 27: Before win.flip()
+2024-02-27 20:25:46.029 Frame 27: After win.flip()
+2024-02-27 20:25:46.031 Frame 28: Before win.flip()
+2024-02-27 20:25:46.046 Frame 28: After win.flip()
+2024-02-27 20:25:46.048 Frame 29: Before win.flip()
+2024-02-27 20:25:46.063 Frame 29: After win.flip()
+2024-02-27 20:25:46.065 Frame 30: Before win.flip()
+2024-02-27 20:25:46.079 Frame 30: After win.flip()
+2024-02-27 20:25:46.082 Frame 31: Before win.flip()
+2024-02-27 20:25:46.096 Frame 31: After win.flip()
+2024-02-27 20:25:46.099 Frame 32: Before win.flip()
+2024-02-27 20:25:46.113 Frame 32: After win.flip()
+2024-02-27 20:25:46.115 Frame 33: Before win.flip()
+2024-02-27 20:25:46.129 Frame 33: After win.flip()
+2024-02-27 20:25:46.139 Frame 34: Before win.flip()
+2024-02-27 20:25:46.146 Frame 34: After win.flip()
+2024-02-27 20:25:46.148 Frame 35: Before win.flip()
+2024-02-27 20:25:46.163 Frame 35: After win.flip()
+2024-02-27 20:25:46.165 Frame 36: Before win.flip()
+2024-02-27 20:25:46.180 Frame 36: After win.flip()
+2024-02-27 20:25:46.182 Frame 37: Before win.flip()
+2024-02-27 20:25:46.196 Frame 37: After win.flip()
+2024-02-27 20:25:46.198 Frame 38: Before win.flip()
+2024-02-27 20:25:46.213 Frame 38: After win.flip()
+2024-02-27 20:25:46.216 Frame 39: Before win.flip()
+2024-02-27 20:25:46.230 Frame 39: After win.flip()
+2024-02-27 20:25:46.232 Frame 40: Before win.flip()
+2024-02-27 20:25:46.247 Frame 40: After win.flip()
+2024-02-27 20:25:46.250 Frame 41: Before win.flip()
+2024-02-27 20:25:46.263 Frame 41: After win.flip()
+2024-02-27 20:25:46.265 Frame 42: Before win.flip()
+2024-02-27 20:25:46.280 Frame 42: After win.flip()
+2024-02-27 20:25:46.282 Frame 43: Before win.flip()
+2024-02-27 20:25:46.296 Frame 43: After win.flip()
+2024-02-27 20:25:46.299 Frame 44: Before win.flip()
+2024-02-27 20:25:46.313 Frame 44: After win.flip()
+2024-02-27 20:25:46.316 Frame 45: Before win.flip()
+2024-02-27 20:25:46.330 Frame 45: After win.flip()
+2024-02-27 20:25:46.332 Frame 46: Before win.flip()
+2024-02-27 20:25:46.346 Frame 46: After win.flip()
+2024-02-27 20:25:46.348 Frame 47: Before win.flip()
+2024-02-27 20:25:46.364 Frame 47: After win.flip()
+2024-02-27 20:25:46.365 Frame 48: Before win.flip()
+2024-02-27 20:25:46.380 Frame 48: After win.flip()
+2024-02-27 20:25:46.383 Frame 49: Before win.flip()
+2024-02-27 20:25:46.396 Frame 49: After win.flip()
+2024-02-27 20:25:46.399 Frame 50: Before win.flip()
+2024-02-27 20:25:46.413 Frame 50: After win.flip()
+2024-02-27 20:25:46.416 Frame 51: Before win.flip()
+2024-02-27 20:25:46.430 Frame 51: After win.flip()
+2024-02-27 20:25:46.432 Frame 52: Before win.flip()
+2024-02-27 20:25:46.446 Frame 52: After win.flip()
+2024-02-27 20:25:46.448 Frame 53: Before win.flip()
+2024-02-27 20:25:46.463 Frame 53: After win.flip()
+2024-02-27 20:25:46.466 Frame 54: Before win.flip()
+2024-02-27 20:25:46.480 Frame 54: After win.flip()
+2024-02-27 20:25:46.483 Frame 55: Before win.flip()
+2024-02-27 20:25:46.497 Frame 55: After win.flip()
+2024-02-27 20:25:46.500 Frame 56: Before win.flip()
+2024-02-27 20:25:46.514 Frame 56: After win.flip()
+2024-02-27 20:25:46.517 Frame 57: Before win.flip()
+2024-02-27 20:25:46.530 Frame 57: After win.flip()
+2024-02-27 20:25:46.532 Frame 58: Before win.flip()
+2024-02-27 20:25:46.546 Frame 58: After win.flip()
+2024-02-27 20:25:46.549 Frame 59: Before win.flip()
+2024-02-27 20:25:46.563 Frame 59: After win.flip()
+2024-02-27 20:25:46.565 Frame 60: Before win.flip()
+2024-02-27 20:25:46.580 Frame 60: After win.flip()
+2024-02-27 20:25:46.583 Frame 61: Before win.flip()
+2024-02-27 20:25:46.597 Frame 61: After win.flip()
+2024-02-27 20:25:46.600 Frame 62: Before win.flip()
+2024-02-27 20:25:46.613 Frame 62: After win.flip()
+2024-02-27 20:25:46.616 Frame 63: Before win.flip()
+2024-02-27 20:25:46.630 Frame 63: After win.flip()
+2024-02-27 20:25:46.632 Frame 64: Before win.flip()
+2024-02-27 20:25:46.647 Frame 64: After win.flip()
+2024-02-27 20:25:46.649 Frame 65: Before win.flip()
+2024-02-27 20:25:46.663 Frame 65: After win.flip()
+2024-02-27 20:25:46.666 Frame 66: Before win.flip()
+2024-02-27 20:25:46.679 Frame 66: After win.flip()
+2024-02-27 20:25:46.682 Frame 67: Before win.flip()
+2024-02-27 20:25:46.697 Frame 67: After win.flip()
+2024-02-27 20:25:46.700 Frame 68: Before win.flip()
+2024-02-27 20:25:46.713 Frame 68: After win.flip()
+2024-02-27 20:25:46.716 Frame 69: Before win.flip()
+2024-02-27 20:25:46.730 Frame 69: After win.flip()
+2024-02-27 20:25:46.733 Frame 70: Before win.flip()
+2024-02-27 20:25:46.746 Frame 70: After win.flip()
+2024-02-27 20:25:46.749 Frame 71: Before win.flip()
+2024-02-27 20:25:46.763 Frame 71: After win.flip()
+2024-02-27 20:25:46.767 Frame 72: Before win.flip()
+2024-02-27 20:25:46.780 Frame 72: After win.flip()
+2024-02-27 20:25:46.783 Frame 73: Before win.flip()
+2024-02-27 20:25:46.797 Frame 73: After win.flip()
+2024-02-27 20:25:46.800 Frame 74: Before win.flip()
+2024-02-27 20:25:46.813 Frame 74: After win.flip()
+2024-02-27 20:25:46.816 Frame 75: Before win.flip()
+2024-02-27 20:25:46.830 Frame 75: After win.flip()
+2024-02-27 20:25:46.833 Frame 76: Before win.flip()
+2024-02-27 20:25:46.847 Frame 76: After win.flip()
+2024-02-27 20:25:46.850 Frame 77: Before win.flip()
+2024-02-27 20:25:46.864 Frame 77: After win.flip()
+2024-02-27 20:25:46.866 Frame 78: Before win.flip()
+2024-02-27 20:25:46.881 Frame 78: After win.flip()
+2024-02-27 20:25:46.883 Frame 79: Before win.flip()
+2024-02-27 20:25:46.896 Frame 79: After win.flip()
+2024-02-27 20:25:46.899 Frame 80: Before win.flip()
+2024-02-27 20:25:46.913 Frame 80: After win.flip()
+2024-02-27 20:25:46.916 Frame 81: Before win.flip()
+2024-02-27 20:25:46.930 Frame 81: After win.flip()
+2024-02-27 20:25:46.934 Frame 82: Before win.flip()
+2024-02-27 20:25:46.946 Frame 82: After win.flip()
+2024-02-27 20:25:46.948 Frame 83: Before win.flip()
+2024-02-27 20:25:46.963 Frame 83: After win.flip()
+2024-02-27 20:25:46.966 Frame 84: Before win.flip()
+2024-02-27 20:25:46.980 Frame 84: After win.flip()
+2024-02-27 20:25:46.983 Frame 85: Before win.flip()
+2024-02-27 20:25:46.997 Frame 85: After win.flip()
+2024-02-27 20:25:47.000 Frame 86: Before win.flip()
+2024-02-27 20:25:47.013 Frame 86: After win.flip()
+2024-02-27 20:25:47.015 Frame 87: Before win.flip()
+2024-02-27 20:25:47.029 Frame 87: After win.flip()
+2024-02-27 20:25:47.033 Frame 88: Before win.flip()
+2024-02-27 20:25:47.047 Frame 88: After win.flip()
+2024-02-27 20:25:47.050 Frame 89: Before win.flip()
+2024-02-27 20:25:47.063 Frame 89: After win.flip()
+2024-02-27 20:25:47.063 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:25:47.081 Trigger sent: 0
+2024-02-27 20:25:47.081 Trigger reset after prediction prompt
+2024-02-27 20:25:47.081 Prediction prompt completed
+2024-02-27 20:25:47.081 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:25:47.081 Trial 1: Showing fixation cross
+2024-02-27 20:25:47.081 Showing fixation
+2024-02-27 20:25:48.580 Fixation ended
+2024-02-27 20:25:48.580 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:25:48.580 Trial 1: Showing word stimulus
+2024-02-27 20:25:48.580 Showing word stimulus for category: ANIMAL
+2024-02-27 20:25:48.598 Trigger sent: 3
+2024-02-27 20:25:48.616 Trigger sent: 0
+2024-02-27 20:25:50.082 Word stimulus "Lemur" shown for category: ANIMAL
+2024-02-27 20:25:50.082 Trial 1: Word stimulus ended
+2024-02-27 20:25:50.082 Trial 1: Congruency category - Congruent
+2024-02-27 20:25:50.082 Trial 1: Data logged
+2024-02-27 20:26:35.790 Experiment started
+2024-02-27 20:26:36.284 Window and monitors initialized
+2024-02-27 20:26:36.284 Stimuli prepared
+2024-02-27 20:26:36.378 Setting up prediction prompt
+2024-02-27 20:26:37.575 Setting up word stimulus
+2024-02-27 20:26:37.575 Setting up data writer
+2024-02-27 20:26:37.576 Main experiment loop starting
+2024-02-27 20:26:37.576 Displaying instruction: The experiment will now begin. 
+
+ Press SPACE to START
+2024-02-27 20:26:37.867 Instruction ended
+2024-02-27 20:26:37.867 Starting trial 1
+2024-02-27 20:26:37.868 Trial 1: Selected cue "Pictures/Cue2_cat.png", Category: "ANIMAL"
+2024-02-27 20:26:37.868 Trial 1: Showing fixation cross
+2024-02-27 20:26:37.868 Showing fixation
+2024-02-27 20:26:39.350 Fixation ended
+2024-02-27 20:26:39.350 Trial 1: Fixation cross ended, moving to cue
+2024-02-27 20:26:39.351 Trial 1: Showing cue
+2024-02-27 20:26:39.351 Showing cue: Pictures/Cue2_cat.png
+2024-02-27 20:26:39.390 Trigger sent: 1
+2024-02-27 20:26:39.416 Trigger sent: 0
+2024-02-27 20:26:40.868 Cue shown: Pictures/Cue2_cat.png with duration 1.5 seconds
+2024-02-27 20:26:40.868 Trial 1: Cue completed, moving to fixation cross
+2024-02-27 20:26:40.868 Trial 1: Showing fixation cross again
+2024-02-27 20:26:40.868 Showing fixation
+2024-02-27 20:26:42.367 Fixation ended
+2024-02-27 20:26:42.367 Trial 1: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:26:42.367 Trial 1: Starting prediction prompt
+2024-02-27 20:26:42.367 Starting prediction prompt
+2024-02-27 20:26:42.382 Frame 0: Before win.flip()
+2024-02-27 20:26:42.387 Trigger sent: 2
+2024-02-27 20:26:42.387 Frame 0: After win.flip()
+2024-02-27 20:26:42.390 Frame 1: Before win.flip()
+2024-02-27 20:26:42.402 Frame 1: After win.flip()
+2024-02-27 20:26:42.404 Frame 2: Before win.flip()
+2024-02-27 20:26:42.417 Frame 2: After win.flip()
+2024-02-27 20:26:42.420 Frame 3: Before win.flip()
+2024-02-27 20:26:42.434 Frame 3: After win.flip()
+2024-02-27 20:26:42.438 Frame 4: Before win.flip()
+2024-02-27 20:26:42.451 Frame 4: After win.flip()
+2024-02-27 20:26:42.454 Frame 5: Before win.flip()
+2024-02-27 20:26:42.467 Frame 5: After win.flip()
+2024-02-27 20:26:42.470 Frame 6: Before win.flip()
+2024-02-27 20:26:42.485 Frame 6: After win.flip()
+2024-02-27 20:26:42.488 Frame 7: Before win.flip()
+2024-02-27 20:26:42.501 Frame 7: After win.flip()
+2024-02-27 20:26:42.504 Frame 8: Before win.flip()
+2024-02-27 20:26:42.517 Frame 8: After win.flip()
+2024-02-27 20:26:42.520 Frame 9: Before win.flip()
+2024-02-27 20:26:42.535 Frame 9: After win.flip()
+2024-02-27 20:26:42.538 Frame 10: Before win.flip()
+2024-02-27 20:26:42.551 Frame 10: After win.flip()
+2024-02-27 20:26:42.554 Frame 11: Before win.flip()
+2024-02-27 20:26:42.568 Frame 11: After win.flip()
+2024-02-27 20:26:42.570 Frame 12: Before win.flip()
+2024-02-27 20:26:42.584 Frame 12: After win.flip()
+2024-02-27 20:26:42.586 Frame 13: Before win.flip()
+2024-02-27 20:26:42.600 Frame 13: After win.flip()
+2024-02-27 20:26:42.603 Frame 14: Before win.flip()
+2024-02-27 20:26:42.618 Frame 14: After win.flip()
+2024-02-27 20:26:42.621 Frame 15: Before win.flip()
+2024-02-27 20:26:42.635 Frame 15: After win.flip()
+2024-02-27 20:26:42.637 Frame 16: Before win.flip()
+2024-02-27 20:26:42.651 Frame 16: After win.flip()
+2024-02-27 20:26:42.654 Frame 17: Before win.flip()
+2024-02-27 20:26:42.667 Frame 17: After win.flip()
+2024-02-27 20:26:42.671 Frame 18: Before win.flip()
+2024-02-27 20:26:42.684 Frame 18: After win.flip()
+2024-02-27 20:26:42.687 Frame 19: Before win.flip()
+2024-02-27 20:26:42.701 Frame 19: After win.flip()
+2024-02-27 20:26:42.704 Frame 20: Before win.flip()
+2024-02-27 20:26:42.718 Frame 20: After win.flip()
+2024-02-27 20:26:42.721 Frame 21: Before win.flip()
+2024-02-27 20:26:42.734 Frame 21: After win.flip()
+2024-02-27 20:26:42.736 Frame 22: Before win.flip()
+2024-02-27 20:26:42.751 Frame 22: After win.flip()
+2024-02-27 20:26:42.753 Frame 23: Before win.flip()
+2024-02-27 20:26:42.768 Frame 23: After win.flip()
+2024-02-27 20:26:42.771 Frame 24: Before win.flip()
+2024-02-27 20:26:42.785 Frame 24: After win.flip()
+2024-02-27 20:26:42.788 Frame 25: Before win.flip()
+2024-02-27 20:26:42.802 Frame 25: After win.flip()
+2024-02-27 20:26:42.804 Frame 26: Before win.flip()
+2024-02-27 20:26:42.818 Frame 26: After win.flip()
+2024-02-27 20:26:42.820 Frame 27: Before win.flip()
+2024-02-27 20:26:42.834 Frame 27: After win.flip()
+2024-02-27 20:26:42.837 Frame 28: Before win.flip()
+2024-02-27 20:26:42.851 Frame 28: After win.flip()
+2024-02-27 20:26:42.854 Frame 29: Before win.flip()
+2024-02-27 20:26:42.868 Frame 29: After win.flip()
+2024-02-27 20:26:42.870 Frame 30: Before win.flip()
+2024-02-27 20:26:42.885 Frame 30: After win.flip()
+2024-02-27 20:26:42.887 Frame 31: Before win.flip()
+2024-02-27 20:26:42.901 Frame 31: After win.flip()
+2024-02-27 20:26:42.904 Frame 32: Before win.flip()
+2024-02-27 20:26:42.917 Frame 32: After win.flip()
+2024-02-27 20:26:42.920 Frame 33: Before win.flip()
+2024-02-27 20:26:42.935 Frame 33: After win.flip()
+2024-02-27 20:26:42.937 Frame 34: Before win.flip()
+2024-02-27 20:26:42.952 Frame 34: After win.flip()
+2024-02-27 20:26:42.955 Frame 35: Before win.flip()
+2024-02-27 20:26:42.968 Frame 35: After win.flip()
+2024-02-27 20:26:42.971 Frame 36: Before win.flip()
+2024-02-27 20:26:42.985 Frame 36: After win.flip()
+2024-02-27 20:26:42.988 Frame 37: Before win.flip()
+2024-02-27 20:26:43.002 Frame 37: After win.flip()
+2024-02-27 20:26:43.004 Frame 38: Before win.flip()
+2024-02-27 20:26:43.018 Frame 38: After win.flip()
+2024-02-27 20:26:43.022 Frame 39: Before win.flip()
+2024-02-27 20:26:43.035 Frame 39: After win.flip()
+2024-02-27 20:26:43.038 Frame 40: Before win.flip()
+2024-02-27 20:26:43.052 Frame 40: After win.flip()
+2024-02-27 20:26:43.055 Frame 41: Before win.flip()
+2024-02-27 20:26:43.068 Frame 41: After win.flip()
+2024-02-27 20:26:43.071 Frame 42: Before win.flip()
+2024-02-27 20:26:43.085 Frame 42: After win.flip()
+2024-02-27 20:26:43.088 Frame 43: Before win.flip()
+2024-02-27 20:26:43.101 Frame 43: After win.flip()
+2024-02-27 20:26:43.104 Frame 44: Before win.flip()
+2024-02-27 20:26:43.118 Frame 44: After win.flip()
+2024-02-27 20:26:43.121 Frame 45: Before win.flip()
+2024-02-27 20:26:43.135 Frame 45: After win.flip()
+2024-02-27 20:26:43.139 Frame 46: Before win.flip()
+2024-02-27 20:26:43.151 Frame 46: After win.flip()
+2024-02-27 20:26:43.154 Frame 47: Before win.flip()
+2024-02-27 20:26:43.168 Frame 47: After win.flip()
+2024-02-27 20:26:43.172 Frame 48: Before win.flip()
+2024-02-27 20:26:43.185 Frame 48: After win.flip()
+2024-02-27 20:26:43.188 Frame 49: Before win.flip()
+2024-02-27 20:26:43.202 Frame 49: After win.flip()
+2024-02-27 20:26:43.205 Frame 50: Before win.flip()
+2024-02-27 20:26:43.218 Frame 50: After win.flip()
+2024-02-27 20:26:43.222 Frame 51: Before win.flip()
+2024-02-27 20:26:43.235 Frame 51: After win.flip()
+2024-02-27 20:26:43.237 Frame 52: Before win.flip()
+2024-02-27 20:26:43.251 Frame 52: After win.flip()
+2024-02-27 20:26:43.254 Frame 53: Before win.flip()
+2024-02-27 20:26:43.268 Frame 53: After win.flip()
+2024-02-27 20:26:43.270 Frame 54: Before win.flip()
+2024-02-27 20:26:43.285 Frame 54: After win.flip()
+2024-02-27 20:26:43.288 Frame 55: Before win.flip()
+2024-02-27 20:26:43.301 Frame 55: After win.flip()
+2024-02-27 20:26:43.303 Frame 56: Before win.flip()
+2024-02-27 20:26:43.318 Frame 56: After win.flip()
+2024-02-27 20:26:43.320 Frame 57: Before win.flip()
+2024-02-27 20:26:43.334 Frame 57: After win.flip()
+2024-02-27 20:26:43.337 Frame 58: Before win.flip()
+2024-02-27 20:26:43.352 Frame 58: After win.flip()
+2024-02-27 20:26:43.355 Frame 59: Before win.flip()
+2024-02-27 20:26:43.368 Frame 59: After win.flip()
+2024-02-27 20:26:43.371 Frame 60: Before win.flip()
+2024-02-27 20:26:43.385 Frame 60: After win.flip()
+2024-02-27 20:26:43.388 Frame 61: Before win.flip()
+2024-02-27 20:26:43.402 Frame 61: After win.flip()
+2024-02-27 20:26:43.405 Frame 62: Before win.flip()
+2024-02-27 20:26:43.418 Frame 62: After win.flip()
+2024-02-27 20:26:43.421 Frame 63: Before win.flip()
+2024-02-27 20:26:43.435 Frame 63: After win.flip()
+2024-02-27 20:26:43.437 Frame 64: Before win.flip()
+2024-02-27 20:26:43.452 Frame 64: After win.flip()
+2024-02-27 20:26:43.455 Frame 65: Before win.flip()
+2024-02-27 20:26:43.468 Frame 65: After win.flip()
+2024-02-27 20:26:43.471 Frame 66: Before win.flip()
+2024-02-27 20:26:43.485 Frame 66: After win.flip()
+2024-02-27 20:26:43.488 Frame 67: Before win.flip()
+2024-02-27 20:26:43.502 Frame 67: After win.flip()
+2024-02-27 20:26:43.505 Frame 68: Before win.flip()
+2024-02-27 20:26:43.518 Frame 68: After win.flip()
+2024-02-27 20:26:43.520 Frame 69: Before win.flip()
+2024-02-27 20:26:43.535 Frame 69: After win.flip()
+2024-02-27 20:26:43.537 Frame 70: Before win.flip()
+2024-02-27 20:26:43.552 Frame 70: After win.flip()
+2024-02-27 20:26:43.554 Frame 71: Before win.flip()
+2024-02-27 20:26:43.568 Frame 71: After win.flip()
+2024-02-27 20:26:43.571 Frame 72: Before win.flip()
+2024-02-27 20:26:43.584 Frame 72: After win.flip()
+2024-02-27 20:26:43.587 Frame 73: Before win.flip()
+2024-02-27 20:26:43.602 Frame 73: After win.flip()
+2024-02-27 20:26:43.604 Frame 74: Before win.flip()
+2024-02-27 20:26:43.620 Frame 74: After win.flip()
+2024-02-27 20:26:43.622 Frame 75: Before win.flip()
+2024-02-27 20:26:43.634 Frame 75: After win.flip()
+2024-02-27 20:26:43.637 Frame 76: Before win.flip()
+2024-02-27 20:26:43.651 Frame 76: After win.flip()
+2024-02-27 20:26:43.654 Frame 77: Before win.flip()
+2024-02-27 20:26:43.668 Frame 77: After win.flip()
+2024-02-27 20:26:43.670 Frame 78: Before win.flip()
+2024-02-27 20:26:43.685 Frame 78: After win.flip()
+2024-02-27 20:26:43.688 Frame 79: Before win.flip()
+2024-02-27 20:26:43.702 Frame 79: After win.flip()
+2024-02-27 20:26:43.705 Frame 80: Before win.flip()
+2024-02-27 20:26:43.718 Frame 80: After win.flip()
+2024-02-27 20:26:43.721 Frame 81: Before win.flip()
+2024-02-27 20:26:43.735 Frame 81: After win.flip()
+2024-02-27 20:26:43.738 Frame 82: Before win.flip()
+2024-02-27 20:26:43.752 Frame 82: After win.flip()
+2024-02-27 20:26:43.754 Frame 83: Before win.flip()
+2024-02-27 20:26:43.769 Frame 83: After win.flip()
+2024-02-27 20:26:43.771 Frame 84: Before win.flip()
+2024-02-27 20:26:43.785 Frame 84: After win.flip()
+2024-02-27 20:26:43.787 Frame 85: Before win.flip()
+2024-02-27 20:26:43.802 Frame 85: After win.flip()
+2024-02-27 20:26:43.805 Frame 86: Before win.flip()
+2024-02-27 20:26:43.819 Frame 86: After win.flip()
+2024-02-27 20:26:43.822 Frame 87: Before win.flip()
+2024-02-27 20:26:43.835 Frame 87: After win.flip()
+2024-02-27 20:26:43.838 Frame 88: Before win.flip()
+2024-02-27 20:26:43.852 Frame 88: After win.flip()
+2024-02-27 20:26:43.855 Frame 89: Before win.flip()
+2024-02-27 20:26:43.868 Frame 89: After win.flip()
+2024-02-27 20:26:43.868 Setting trigger reset on next flip after prediction prompt
+2024-02-27 20:26:43.886 Trigger sent: 0
+2024-02-27 20:26:43.886 Trigger reset after prediction prompt
+2024-02-27 20:26:43.886 Prediction prompt completed
+2024-02-27 20:26:43.886 Trial 1: Prediction prompt completed, moving to fixation cross
+2024-02-27 20:26:43.886 Trial 1: Showing fixation cross
+2024-02-27 20:26:43.886 Showing fixation
+2024-02-27 20:26:45.386 Fixation ended
+2024-02-27 20:26:45.386 Trial 1: Fixation cross ended, moving to word stimulus
+2024-02-27 20:26:45.386 Trial 1: Showing word stimulus
+2024-02-27 20:26:45.386 Showing word stimulus for category: ANIMAL
+2024-02-27 20:26:45.402 Trigger sent: 3
+2024-02-27 20:26:45.419 Trigger sent: 0
+2024-02-27 20:26:46.886 Word stimulus "Otter" shown for category: ANIMAL
+2024-02-27 20:26:46.887 Trial 1: Word stimulus ended
+2024-02-27 20:26:46.887 Trial 1: Congruency category - Congruent
+2024-02-27 20:26:46.887 Trial 1: Data logged
+2024-02-27 20:26:46.887 Starting trial 2
+2024-02-27 20:26:46.887 Trial 2: Selected cue "Pictures/Cue1_hammer.png", Category: "TOOL"
+2024-02-27 20:26:46.887 Trial 2: Showing fixation cross
+2024-02-27 20:26:46.887 Showing fixation
+2024-02-27 20:26:48.387 Fixation ended
+2024-02-27 20:26:48.387 Trial 2: Fixation cross ended, moving to cue
+2024-02-27 20:26:48.387 Trial 2: Showing cue
+2024-02-27 20:26:48.387 Showing cue: Pictures/Cue1_hammer.png
+2024-02-27 20:26:48.419 Trigger sent: 1
+2024-02-27 20:26:48.453 Trigger sent: 0
+2024-02-27 20:26:49.904 Cue shown: Pictures/Cue1_hammer.png with duration 1.5 seconds
+2024-02-27 20:26:49.904 Trial 2: Cue completed, moving to fixation cross
+2024-02-27 20:26:49.904 Trial 2: Showing fixation cross again
+2024-02-27 20:26:49.904 Showing fixation
+2024-02-27 20:26:51.405 Fixation ended
+2024-02-27 20:26:51.405 Trial 2: Fixation cross ended, moving to word prediction prompt
+2024-02-27 20:26:51.405 Experiment aborted by user.

@@ -1,0 +1,2 @@
+Trial,Cue,Category,Prob_cat,CueOnset,CueOffset,Prediction,ReactionTime,PredOnset,PredOffset,WordOnset,WordOffset
+1,Cue 2,ANIMAL,Congruent,5.038558899992495,6.5552456000004895,,,8.057337899997947,9.573938999994425,11.074568500000169,12.574263300004532

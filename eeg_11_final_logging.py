@@ -182,7 +182,7 @@ def show_word(category, trigger_code, word_duration_secs=0.5):
 logging.info('Setting up data writer')
 writer = ppc.csv_writer(filename_prefix='Sam_test',
                         folder='exp_data',
-                        column_order=['Trial', 'Cue', 'Category', 'Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'rt', 'PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
+                        column_order=['Trial', 'Cue', 'Category', 'Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
 
 def check_for_escape():
     if 'escape' in event.getKeys():
@@ -286,7 +286,6 @@ for trial in range(n_trials):
         'CueOffset': cue_offset,
         'Prediction': prediction,
         'ReactionTime': reaction_time_prediction,
-        'rt': reaction_time_prediction - pred_onset,
         'PredOnset': pred_onset,
         'PredOffset': pred_offset,
         'WordOnset': word_onset,
