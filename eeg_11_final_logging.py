@@ -44,8 +44,8 @@ Cue_2 = 'Pictures/Cue2_cat.png'
 cue_identifiers = {'Pictures/Cue1_hammer.png': 'Cue 1', 'Pictures/Cue2_cat.png': 'Cue 2'}
 cues = list(cue_identifiers.keys())
 words = {
-    'ANIMAL': ["Zebra", "Tiger", "Shark", "Whale", "Eagle", "Otter", "Squid", "Skunk", "Sloth", "Snail", "Moose", "Crane", "Finch", "Gecko", "Horse", "Hyena", "Lemur", "Llama", "Panda", "Quail"],
-    'TOOL': ["Drill", "Screw", "Clamp", "Level", "Wrench", "Lathe", "Chisel", "Anvil", "Brace", "Gauge", "Joint", "Knife", "Laser", "Mallet", "Nailer", "Plier", "Ruler", "Nozzle", "Crank", "Hammer"]
+    'ANIMAL': ["Zebra", "Tiger", "Shark", "Whale", "Eagle", "Otter", "Squid", "Skunk", "Sloth", "Snail", "Moose", "Finch", "Gecko", "Horse", "Hyena", "Lemur", "Llama", "Panda", "Quail"],
+    'TOOL': ["Drill", "Clamp", "Level", "Wrench", "Lathe", "Chisel", "Anvil", "Brace", "Gauge", "Joint", "Knife", "Laser", "Mallet", "Nailer", "Plier", "Ruler", "Nozzle", "Crank", "Hammer"]
 }
 logging.info('Stimuli prepared')
 
@@ -184,6 +184,10 @@ writer = ppc.csv_writer(filename_prefix='Sam_test',
                         folder='exp_data',
                         column_order=['Trial', 'Cue', 'Category', 'Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'rt', 'PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
 
+def check_for_escape():
+    if 'escape' in event.getKeys():
+        logging.info('Experiment aborted by user.')
+        core.quit()
 
 #====================================================================
 ############################ MAIN LOOP ############################
@@ -191,14 +195,14 @@ writer = ppc.csv_writer(filename_prefix='Sam_test',
 
 # Main Experiment Loop
 logging.info('Main experiment loop starting')
-n_trials = 2  # Adjust based on the experiment design
-switch_trials = [1]  # Adjust based on when you want to switch probabilities
+n_trials = 15  # Adjust based on the experiment design
+switch_trials = [7]  # Adjust based on when you want to switch probabilities
 switch_trials = [x + 1 for x in switch_trials]
 
 # Initial cue probabilities
 cue_prob = {
-    Cue_1: {'ANIMAL': 0.2, 'TOOL': 0.8},
-    Cue_2: {'ANIMAL': 0.8, 'TOOL': 0.2}
+    Cue_1: {'ANIMAL': 0.1, 'TOOL': 0.9},
+    Cue_2: {'ANIMAL': 0.9, 'TOOL': 0.1}
 }
 
 # Trigger Codes
@@ -211,6 +215,8 @@ TRIGGER_CODES = {
 show_instruction("The experiment will now begin. \n\n Press SPACE to START")
 
 for trial in range(n_trials):
+    check_for_escape()
+    
     logging.info(f'Starting trial {trial + 1}')
     trial_clock.reset()
 
@@ -222,35 +228,49 @@ for trial in range(n_trials):
     category = get_category(cue)
     logging.info(f'Trial {trial + 1}: Selected cue "{cue}", Category: "{category}"')
     
+    check_for_escape()
+    
     # Fixation Cross
     logging.info(f'Trial {trial + 1}: Showing fixation cross')
     show_fixation(1.5)
     logging.info(f'Trial {trial + 1}: Fixation cross ended, moving to cue')
+    
+    check_for_escape()
     
     # Stimulus: Cue
     logging.info(f'Trial {trial + 1}: Showing cue')
     cue_onset, cue_offset = show_cue(cue, TRIGGER_CODES['cue'], duration_secs=1.5)
     logging.info(f'Trial {trial + 1}: Cue completed, moving to fixation cross')
     
+    check_for_escape()
+    
     # Fixation Cross
     logging.info(f'Trial {trial + 1}: Showing fixation cross again')
     show_fixation(1.5)
     logging.info(f'Trial {trial + 1}: Fixation cross ended, moving to word prediction prompt')
+    
+    check_for_escape()
     
     # RESPONSE: Prediction
     logging.info(f'Trial {trial + 1}: Starting prediction prompt')
     prediction, reaction_time_prediction, pred_onset, pred_offset = prediction_prompt(TRIGGER_CODES['prediction_start'], duration=1.5)
     logging.info(f'Trial {trial + 1}: Prediction prompt completed, moving to fixation cross')
     
+    check_for_escape()
+    
     # Fixation Cross
     logging.info(f'Trial {trial + 1}: Showing fixation cross')
     show_fixation(1.5)
     logging.info(f'Trial {trial + 1}: Fixation cross ended, moving to word stimulus')
     
+    check_for_escape()
+    
     # Stimulus: Word
     logging.info(f'Trial {trial + 1}: Showing word stimulus')
     word_onset, word_offset = show_word(category, TRIGGER_CODES['word'], word_duration_secs=1.5)
     logging.info(f'Trial {trial + 1}: Word stimulus ended')
+
+    check_for_escape()
 
     # Define congruency based on switch count
     prob_cat = "Congruent" if switch_count % 2 == 0 else "Incongruent"
