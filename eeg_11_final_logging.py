@@ -79,7 +79,12 @@ def show_cue(cue, duration_secs=0.5):
     cue_onset = core.monotonicClock.getTime()
     cue_image = visual.ImageStim(win, image=cue, size=(0.20, 0.30))
     trigger_set = False
-
+    if cue == Cue_2:
+        trigger_code = 11
+    elif cue == Cue_1:
+        trigger_code = 12
+    else:
+        trigger_code = None 
     for frameN in range(cue_duration_frames):
         if frameN == 0:
             win.callOnFlip(setParallelData, trigger_code)
@@ -153,7 +158,14 @@ def prediction_prompt(trigger_code, duration=1.5):
 
 # Word Stimulus
 logging.info('Setting up word stimulus')
-def show_word(category, trigger_code, word_duration_secs=0.5):
+def show_word(category, word_duration_secs=0.5):
+    if category == 'ANIMAL':
+        trigger_code = 32
+    elif category == 'TOOL':
+        trigger_code = 31
+    else:
+        trigger_code = None 
+
     logging.info(f'Showing word stimulus for category: {category}')
     word_duration_frames = int(word_duration_secs * FRAME_RATE)
     
@@ -208,8 +220,7 @@ cue_prob = {
 
 # Trigger Codes
 TRIGGER_CODES = {
-    'prediction_start': 2,
-    'word': 3,
+    'prediction_start': 20,
 }
 
 show_instruction("The experiment will now begin. \n\n Press SPACE to START")
@@ -267,7 +278,7 @@ for trial in range(n_trials):
     
     # Stimulus: Word
     logging.info(f'Trial {trial + 1}: Showing word stimulus')
-    word_onset, word_offset = show_word(category, TRIGGER_CODES['word'], word_duration_secs=1.5)
+    word_onset, word_offset = show_word(category, word_duration_secs=1.5)
     logging.info(f'Trial {trial + 1}: Word stimulus ended')
 
     check_for_escape()
