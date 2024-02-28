@@ -38,6 +38,19 @@ def show_instruction(text):
     event.waitKeys(keyList=["space"])
     logging.info("Instruction ended")
 
+
+instruction_texts = [
+    "Welcome to the word category prediction task! \n \n In this experiment, you'll PREDICT the category of upcoming words.\n\n Press SPACE to see how it works..",
+    "In each trial: \n\n 1. You'll see a cue. This gives you a hint about the category of the next word. \n\n 2. Based on the cue, you make your prediction. This is a binary outcome, you will predict either an ANIMAL or a TOOL. \n\n 3. You will be presented with a word, and you'll see if your prediction was correct \n\n Press SPACE to continue.",
+    "Remember: \n\n Pay attention!  Cues and Words are going to be presented only for a very brief moment. \n\n Act fast!  You will only have a brief time to respond. \n\n Press SPACE to continue.",
+    "Keys: \n\n Place your index fingers on the keys: D and K \n\n  To make a prediction, press: \n\n\n\n ANIMAL                                                   TOOL\n  [ D ]                                                        [ K ] \n\n\n\n\n\n\n\n Press SPACE to continue.",
+]
+
+for text in instruction_texts:
+    show_instruction(text)
+
+
+
 # Prepare Stimuli
 Cue_1 = 'Pictures/Cue1_hammer.png'
 Cue_2 = 'Pictures/Cue2_cat.png'
@@ -208,8 +221,8 @@ def check_for_escape():
 
 # Main Experiment Loop
 logging.info('Main experiment loop starting')
-n_trials = 15  # Adjust based on the experiment design
-switch_trials = [7]  # Adjust based on when you want to switch probabilities
+n_trials = 20  # Adjust based on the experiment design
+switch_trials = [10, 15]  # Adjust based on when you want to switch probabilities
 switch_trials = [x + 1 for x in switch_trials]
 
 # Initial cue probabilities
