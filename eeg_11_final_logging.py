@@ -57,8 +57,8 @@ Cue_2 = 'Pictures/Cue2_cat.png'
 cue_identifiers = {'Pictures/Cue1_hammer.png': 'Cue 1', 'Pictures/Cue2_cat.png': 'Cue 2'}
 cues = list(cue_identifiers.keys())
 words = {
-    'ANIMAL': ["Zebra", "Tiger", "Shark", "Whale", "Eagle", "Otter", "Squid", "Skunk", "Sloth", "Snail", "Moose", "Finch", "Gecko", "Horse", "Hyena", "Lemur", "Llama", "Panda", "Quail"],
-    'TOOL': ["Drill", "Clamp", "Level", "Wrench", "Lathe", "Chisel", "Anvil", "Brace", "Gauge", "Joint", "Knife", "Laser", "Mallet", "Nailer", "Plier", "Ruler", "Nozzle", "Crank", "Hammer"]
+    'ANIMAL': ["Zebra", "Tiger", "Shark", "Whale", "Eagle", "Otter", "Squid", "Sloth", "Snail", "Moose", "Finch", "Gecko", "Horse", "Hyena", "Lemur", "Llama", "Panda", "Koala", "Chimp", "Camel"],
+    'TOOL': ["Drill", "Clamp", "Level", "Chisel", "Anvil", "Brace", "Joint", "Knife", "Laser", "Nailer", "Plier", "Ruler", "Hammer", "Shovel", "Ladder", "Brush", "Spade", "Torch", "Cutter"]
 }
 logging.info('Stimuli prepared')
 
@@ -206,7 +206,7 @@ def show_word(category, word_duration_secs=0.5):
 
 # Data Saving
 logging.info('Setting up data writer')
-writer = ppc.csv_writer(filename_prefix='Sam_test',
+writer = ppc.csv_writer(filename_prefix='Malene_test',
                         folder='exp_data',
                         column_order=['Trial', 'Cue', 'Category', 'Prob_cat', 'CueOnset', 'CueOffset', 'Prediction', 'ReactionTime', 'PredOnset', 'PredOffset', 'WordOnset', 'WordOffset'])
 
